@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev:api": "nx run api:serve",
-    "dev:web": "nx run web:dev"
+    "dev:web": "nx run web:dev",
+    "build:api": "nx run api:build --skip-nx-cache"
   },
   "private": true,
   "dependencies": {

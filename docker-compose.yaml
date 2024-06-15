@@ -1,0 +1,25 @@
+version: '3.8'
+
+networks:
+  bridge_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: '10.12.8.0/24'
+          gateway: '10.12.8.1'
+
+services:
+  api:
+    build:
+      context: ./dist/apps/api
+      dockerfile: Dockerfile
+    container_name: api
+    restart: always
+    environment:
+      - LOG_LEVEL=warn
+    privileged: true # cấp quyền mount nfs
+    ports:
+      - 3333:3333
+    networks:
+      bridge_net:

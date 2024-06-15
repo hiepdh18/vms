@@ -23,11 +23,6 @@
     "build": {
       "options": {
         "generatePackageJson": true
-      },
-      "configurations": {
-        "productions" : {
-
-        }
       }
     }
   }

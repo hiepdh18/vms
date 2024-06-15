@@ -1,0 +1,24 @@
+{
+  "apps": [
+    {
+      "name": "api-main",
+      "script": "main.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "api-replica",
+      "script": "main.js",
+      "instances": 9,
+      "exec_mode": "cluster",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
