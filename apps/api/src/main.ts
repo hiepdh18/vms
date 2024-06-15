@@ -1,3 +1,4 @@
+import { LoggingInterceptor } from '@vms/middlewares'
 /**
  * This is not a production server yet!
  * This is only a minimal backend to get started.
@@ -40,5 +41,5 @@ bootstrap({
   openApi: apiDocument,
   swaggerCustomOptions: swaggerOptions,
   enableWebsocket: true,
-  interceptors: [],
+  interceptors: [new LoggingInterceptor('app')],
 });

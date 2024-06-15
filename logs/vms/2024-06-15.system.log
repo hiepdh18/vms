@@ -1202,3 +1202,18 @@ Require stack:
 [32m[App] 8795   - [39m6/15/2024, 9:00:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
 [32m[App] 8795   - [39m6/15/2024, 9:00:52 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
 [32m[App] 8795   - [39m6/15/2024, 9:00:52 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3334[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:04 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3334[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:18 PM [32m    LOG[39m  [32m--------------------------[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:18 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:18 PM [32m    LOG[39m [33m[AppService][39m [32mTRY[39m
+[32m[App] 14928  - [39m6/15/2024, 10:16:18 PM [32m    LOG[39m  [32mtest[39m
