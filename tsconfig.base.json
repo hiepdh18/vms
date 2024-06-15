@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@vms/infra/logging": ["libs/infra/logging/src/index.ts"],
       "@vms/infra/nest-server": ["libs/infra/nest-server/src/index.ts"]
     }
   },

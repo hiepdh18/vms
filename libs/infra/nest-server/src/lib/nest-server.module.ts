@@ -2,6 +2,7 @@ import { DynamicModule, Module, Type } from '@nestjs/common';
 import { NestServerController } from './nest-server.controller';
 import { APP_INTERCEPTOR } from '@nestjs/core';
 import { ApPInterceptor } from './app.interceptor';
+import { LoggingModule } from '@vms/infra/logging';
 
 interface ModuleOptions {
   appModule: Type<any>;
@@ -12,10 +13,10 @@ interface ModuleOptions {
   providers: [
     {
       provide: APP_INTERCEPTOR,
-      useClass : ApPInterceptor
-    }
+      useClass: ApPInterceptor,
+    },
   ],
-  exports: [],
+  imports: [LoggingModule],
 })
 export class NestServerModule {
   static forRoot({ appModule }: ModuleOptions): DynamicModule {

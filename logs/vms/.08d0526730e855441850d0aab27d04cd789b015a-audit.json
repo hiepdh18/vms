@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 10
+    },
+    "auditLog": "logs/vms/.08d0526730e855441850d0aab27d04cd789b015a-audit.json",
+    "files": [
+        {
+            "date": 1718428453907,
+            "name": "logs/vms/2024-06-15.system.log",
+            "hash": "1f5e08fc56679e93e65b6c54050d8cd50e2e4547b9b465a78397b8e9338ea442"
+        }
+    ],
+    "hashType": "sha256"
+}
