@@ -19,6 +19,16 @@
           "buildTarget": "api:build:production"
         }
       }
+    },
+    "build": {
+      "options": {
+        "generatePackageJson": true
+      },
+      "configurations": {
+        "productions" : {
+
+        }
+      }
     }
   }
 }
