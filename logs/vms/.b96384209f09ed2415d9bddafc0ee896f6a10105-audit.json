@@ -9,6 +9,11 @@
             "date": 1718464563919,
             "name": "logs/vms/2024-06-15.app.log",
             "hash": "73482f7c60ce01ca15315e1fe757b21a28adc48776f305ebdfbea1d6393b1093"
+        },
+        {
+            "date": 1718812439931,
+            "name": "logs/vms/2024-06-19.app.log",
+            "hash": "7ad48341556f6de086f18f2a0d185131a58ff676c02182b4f62baeb5b70cb61b"
         }
     ],
     "hashType": "sha256"
