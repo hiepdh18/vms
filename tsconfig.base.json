@@ -24,7 +24,7 @@
       "@vms/shared/enums": ["libs/shared/enums/src/index.ts"],
       "@vms/shared/interfaces": ["libs/shared/interfaces/src/index.ts"],
       "@vms/shared/utils": ["libs/shared/utils/src/index.ts"],
-      "@vms/ws-ptz": ["libs/api/ws/ptz/src/index.ts"]
+      "@vms/api/ws/ptz": ["libs/api/ws/ptz/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
