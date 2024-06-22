@@ -37,7 +37,8 @@ export class LoggingInterceptor implements NestInterceptor {
     const username = request['user']?.username;
     const { statusCode } = context.switchToHttp().getResponse();
     const { originalUrl, method, params, query, body, headers } = request;
-    console.log('--------------------------');
+    console.log('----------Begin Interceptor----------');
+
     // console.log('method', {method});
     // console.log('originalUrl', originalUrl);
     // console.log('statusCode', {statusCode});
@@ -74,6 +75,7 @@ export class LoggingInterceptor implements NestInterceptor {
         if (username) {
           this.saveLog(username, statusCode, originalUrl, method);
         }
+        console.log('----------End Interceptor----------');
       }),
       catchError((error) => {
         // console.log('failed');
