@@ -17,103 +17,103 @@ networks:
           gateway: '10.12.0.1'
 
 services:
-  # redis:
-  #   container_name: redis
-  #   image: 'bitnami/redis:7.2.5'
-  #   restart: always
-  #   ports:
-  #     - 6379:6379
-  #   environment:
-  #     - REDIS_PASSWORD=123456aA@
-  #   volumes:
-  #     - ./volumes/redis:/bitnami/redis/data
-  #   networks:
-  #     bridge_net:
-
-  # postgres:
-  #   container_name: postgres
-  #   image: bitnami/postgresql:16.3.0
-  #   restart: always
-  #   environment:
-  #     # database:user
-  #     - POSTGRES_MULTIPLE_DATABASES=vms,dev:test,postgres
-  #     - POSTGRESQL_USERNAME=dev
-  #     - POSTGRESQL_PASSWORD=123456aA@
-  #     - POSTGRESQL_DATABASE=dev
-  #   ports:
-  #     - '5432:5432'
-  #   volumes:
-  #     - ./.docker/postgres_db/:/docker-entrypoint-initdb.d/
-  #     - ./volumes/pg:/bitnami/postgresql
-  #   networks:
-  #     bridge_net:
-
-  coturn:
-    container_name: coturn
-    # image: coturn_server_op:1.0
-    build:
-      context: ./.docker/coturn/
-      dockerfile: Dockerfile
-    ports:
-      - '3478:3478'
-      - '3478:3478/udp'
-      - '5349:5349'
-      - '5349:5349/udp'
-      - '20000-20020:20000-20020/udp'
-    environment:
-      - USER_NAME=coturn
-      - USER_PASSWORD=123456aA@
-      - LISTENING_PORT=3478
-      - TLS_LISTENING_PORT=5349
-      - EXTERNAL_IP=192.168.100.172 # IP computer
-      - REPLAY_IP=10.12.0.100 # IP server container
-      - MIN_PORT=20000
-      - MAX_PORT=20020
-    volumes:
-      - .docker/coturn/turnserver.conf:/etc/turnserver.conf
+  redis:
+    container_name: redis
+    image: 'bitnami/redis:7.2.5'
     restart: always
-    networks:
-      coturn_net:
-        ipv4_address: '10.12.0.100'
-
-  go2rtc:
-    container_name: go2rtc
-    image: alexxit/go2rtc
-    # network_mode: host       # important for WebRTC, HomeKit, UDP cameras
-    privileged: true # only for FFmpeg hardware transcoding
-    restart: unless-stopped # autorestart on fail or config change from WebUI
     ports:
-      - '1984:1984'
-      - '8554:8554'
-      - '8555:8555'
+      - 6379:6379
+    environment:
+      - REDIS_PASSWORD=123456aA@
     volumes:
-      - './volumes/go2rtc/config:/config' # folder for go2rtc.yaml file (edit from WebUI)
+      - ./volumes/redis:/bitnami/redis/data
     networks:
       bridge_net:
 
-  # api:
+  postgres:
+    container_name: postgres
+    image: bitnami/postgresql:16.3.0
+    restart: always
+    environment:
+      # database:user
+      - POSTGRES_MULTIPLE_DATABASES=vms,dev:test,postgres
+      - POSTGRESQL_USERNAME=dev
+      - POSTGRESQL_PASSWORD=123456aA@
+      - POSTGRESQL_DATABASE=dev
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./.docker/postgres_db/:/docker-entrypoint-initdb.d/
+      - ./volumes/pg:/bitnami/postgresql
+    networks:
+      bridge_net:
+
+  # coturn:
+  #   container_name: coturn
+  #   # image: coturn_server_op:1.0
   #   build:
-  #     context: ./dist/apps/api
+  #     context: ./.docker/coturn/
   #     dockerfile: Dockerfile
-  #   container_name: api
-  #   restart: always
-  #   environment:
-  #     - LOG_LEVEL=warn
-  #   privileged: true # cấp quyền mount nfs
   #   ports:
-  #     - 3333:3333
+  #     - '3478:3478'
+  #     - '3478:3478/udp'
+  #     - '5349:5349'
+  #     - '5349:5349/udp'
+  #     - '20000-20020:20000-20020/udp'
+  #   environment:
+  #     - USER_NAME=coturn
+  #     - USER_PASSWORD=123456aA@
+  #     - LISTENING_PORT=3478
+  #     - TLS_LISTENING_PORT=5349
+  #     - EXTERNAL_IP=192.168.100.172 # IP computer
+  #     - REPLAY_IP=10.12.0.100 # IP server container
+  #     - MIN_PORT=20000
+  #     - MAX_PORT=20020
+  #   volumes:
+  #     - .docker/coturn/turnserver.conf:/etc/turnserver.conf
+  #   restart: always
+  #   networks:
+  #     coturn_net:
+  #       ipv4_address: '10.12.0.100'
+
+  # go2rtc:
+  #   container_name: go2rtc
+  #   image: alexxit/go2rtc
+  #   # network_mode: host       # important for WebRTC, HomeKit, UDP cameras
+  #   privileged: true # only for FFmpeg hardware transcoding
+  #   restart: unless-stopped # autorestart on fail or config change from WebUI
+  #   ports:
+  #     - '1984:1984'
+  #     - '8554:8554'
+  #     - '8555:8555'
+  #   volumes:
+  #     - './volumes/go2rtc/config:/config' # folder for go2rtc.yaml file (edit from WebUI)
   #   networks:
   #     bridge_net:
 
-  # rtsp:
-  #   build:
-  #     context: .docker/rtsp/
-  #     dockerfile: Dockerfile
-  #   container_name: rtsp
-  #   restart: always
-  #   ports:
-  #     - 8083:8083
-  #   volumes:
-  #     - .docker/rtsp/config.json:/config/config.json
-  #   networks:
-  #     bridge_net:
+  # # api:
+  # #   build:
+  # #     context: ./dist/apps/api
+  # #     dockerfile: Dockerfile
+  # #   container_name: api
+  # #   restart: always
+  # #   environment:
+  # #     - LOG_LEVEL=warn
+  # #   privileged: true # cấp quyền mount nfs
+  # #   ports:
+  # #     - 3333:3333
+  # #   networks:
+  # #     bridge_net:
+
+  # # rtsp:
+  # #   build:
+  # #     context: .docker/rtsp/
+  # #     dockerfile: Dockerfile
+  # #   container_name: rtsp
+  # #   restart: always
+  # #   ports:
+  # #     - 8083:8083
+  # #   volumes:
+  # #     - .docker/rtsp/config.json:/config/config.json
+  # #   networks:
+  # #     bridge_net:

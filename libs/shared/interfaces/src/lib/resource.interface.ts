@@ -1,7 +1,7 @@
 export interface IResource {
   id: number;
   key: string;
-  desc: number;
+  desc: string;
   createdAt: Date;
   updatedAt: Date;
 }

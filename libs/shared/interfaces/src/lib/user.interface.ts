@@ -1,4 +1,4 @@
-import { IRole } from "./role.interface";
+import { IRole } from './role.interface';
 
 export interface IUser {
   id: number;
@@ -11,5 +11,5 @@ export interface IUser {
   refreshToken: string;
   createdAt: string;
   updatedAt: string;
-  isLocked?: boolean;
+  isLocked?: boolean | any;
 }

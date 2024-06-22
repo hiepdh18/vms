@@ -30,6 +30,7 @@
     "nest-winston": "^1.10.0",
     "next": "14.2.3",
     "objection": "^3.1.4",
+    "pg": "^8.12.0",
     "prom-client": "^15.1.2",
     "react": "18.3.1",
     "react-dom": "18.3.1",
