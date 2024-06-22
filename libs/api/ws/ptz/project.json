@@ -1,0 +1,9 @@
+{
+  "name": "api-ws-ptz",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/api/ws/ptz/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project api-ws-ptz --web",
+  "targets": {}
+}
