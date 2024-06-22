@@ -14,6 +14,16 @@
             "date": 1718812439717,
             "name": "logs/vms/2024-06-19.system.log",
             "hash": "3b08c0d8ca8f3892869ef84ec45688432e539108469b69459517b99d371fb5e0"
+        },
+        {
+            "date": 1718901701149,
+            "name": "logs/vms/2024-06-20.system.log",
+            "hash": "1a76647c38e2109fc4487cafca86846f1090b3676817998b2419ca0324fe87cf"
+        },
+        {
+            "date": 1718991042121,
+            "name": "logs/vms/2024-06-22.system.log",
+            "hash": "2d98d5499362a730fe13d6618a274200fb83ad05e3796a7a47490c7b8155d3bb"
         }
     ],
     "hashType": "sha256"

@@ -1,0 +1,92 @@
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:29 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:52 AM [32m    LOG[39m  [32m--------------------------[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:52 AM [32m    LOG[39m [33m[OnvifService][39m [32mStart the discovery process.[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m6 devices were found.[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - urn:uuid:4f6c0000-f93b-11b3-825d-4cf5dcb1544a[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - HIKVISION%20DS-2CD2T43G2-2I[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - http://192.168.6.170/onvif/device_service[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - urn:uuid:4f6c0000-f93b-11b3-825d-4cf5dcb15430[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - HIKVISION%20DS-2CD2T43G2-2I[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - http://192.168.6.150/onvif/device_service[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - uuid:c04c5d3e-a666-3deb-13cb-4aa64c5ca666[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - Dahua[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - http://192.168.6.125/onvif/device_service[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - uuid:fe96aa46-b2cd-7327-a77e-efc04511b2cd[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - General[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - http://192.168.6.108/onvif/device_service[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - uuid:53240864-8802-7c08-145b-63ab4bec8802[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - Dahua[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - http://192.168.6.59/onvif/device_service[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - uuid:034bcad1-bab7-b524-72c7-36aa4f79bab7[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - Dahua[39m
+[32m[App] 2460   - [39m6/20/2024, 8:59:55 AM [32m    LOG[39m [33m[OnvifService][39m [32m  - http://192.168.6.254/onvif/device_service[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 62214  - [39m6/20/2024, 11:41:41 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 62214  - [39m6/20/2024, 11:47:12 PM [32m    LOG[39m  [32m--------------------------[39m
+[32m[App] 62214  - [39m6/20/2024, 11:47:12 PM [32m    LOG[39m [33m[OnvifService][39m [32mStart the discovery process.[39m
+[32m[App] 62214  - [39m6/20/2024, 11:47:15 PM [32m    LOG[39m [33m[OnvifService][39m [32m1 devices were found.[39m
+[32m[App] 62214  - [39m6/20/2024, 11:47:15 PM [32m    LOG[39m [33m[OnvifService][39m [32m  - uuid:7052d27d-afc6-449f-82b1-6477715c6979[39m
+[32m[App] 62214  - [39m6/20/2024, 11:47:15 PM [32m    LOG[39m [33m[OnvifService][39m [32m  - LC[39m
+[32m[App] 62214  - [39m6/20/2024, 11:47:15 PM [32m    LOG[39m [33m[OnvifService][39m [32m  - http://192.168.100.251/onvif/device_service[39m
+[32m[App] 62214  - [39m6/20/2024, 11:47:29 PM [32m    LOG[39m  [32m--------------------------[39m
+[32m[App] 62214  - [39m6/20/2024, 11:47:31 PM [32m    LOG[39m [33m[OnvifService][39m [32m{
+  "Manufacturer": "LC",
+  "Model": "IPC-A42-L",
+  "FirmwareVersion": "2.800.0000000.7.R 2023-06-15",
+  "SerialNumber": "9H0455DPBV09224",
+  "HardwareId": "1.10"
+}[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:53 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:57 PM [32m    LOG[39m  [32m--------------------------[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:59 PM [32m    LOG[39m [33m[OnvifService][39m [32m{
+  "Manufacturer": "LC",
+  "Model": "IPC-A42-L",
+  "FirmwareVersion": "2.800.0000000.7.R 2023-06-15",
+  "SerialNumber": "9H0455DPBV09224",
+  "HardwareId": "1.10"
+}[39m
+[32m[App] 63099  - [39m6/20/2024, 11:50:59 PM [32m    LOG[39m [33m[OnvifService][39m [32mrtsp://192.168.100.251:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif[39m

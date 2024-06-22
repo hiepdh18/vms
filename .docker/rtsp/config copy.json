@@ -1,0 +1,124 @@
+{
+  "channel_defaults": {},
+  "server": {
+    "debug": true,
+    "http_debug": false,
+    "http_demo": true,
+    "http_dir": "web",
+    "http_login": "demo",
+    "http_password": "demo",
+    "http_port": ":8083",
+    "https": false,
+    "https_auto_tls": false,
+    "https_auto_tls_name": "",
+    "https_cert": "server.crt",
+    "https_key": "server.key",
+    "https_port": ":443",
+    "ice_credential": "MQ@9df12345",
+    "ice_servers": [
+      "stun:192.168.6.136:3478",
+      "turn:192.168.6.136:3478"
+    ],
+    "ice_username": "mq_coturn",
+    "log_level": "debug",
+    "rtsp_port": ":5541",
+    "token": {
+      "backend": "http://127.0.0.1/test.php",
+      "enable": false
+    },
+    "webrtc_port_max": 0,
+    "webrtc_port_min": 0
+  },
+  "streams": {
+    "1": {
+      "channels": {
+        "0": {
+          "name": "MediaProfile_Channel1_MainStream",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=1\u0026subtype=0\u0026unicast=true\u0026proto=Onvif"
+        },
+        "1": {
+          "name": "MediaProfile_Channel1_SubStream1",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=1\u0026subtype=1\u0026unicast=true\u0026proto=Onvif"
+        },
+        "2": {
+          "name": "MediaProfile_Channel2_MainStream",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=2\u0026subtype=0\u0026unicast=true\u0026proto=Onvif"
+        },
+        "3": {
+          "name": "MediaProfile_Channel2_SubStream1",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=2\u0026subtype=1\u0026unicast=true\u0026proto=Onvif"
+        }
+      },
+      "name": "Cam Nhiet"
+    },
+    "197": {
+      "channels": {
+        "0": {
+          "name": "mainStream",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.89:554/Streaming/Channels/101?transportmode=unicast\u0026profile=Profile_1"
+        },
+        "1": {
+          "name": "subStream",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.89:554/Streaming/Channels/102?transportmode=unicast\u0026profile=Profile_2"
+        }
+      },
+      "name": "192.168.6.89"
+    },
+    "198": {
+      "channels": {
+        "0": {
+          "name": "MediaProfile_Channel1_MainStream",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=1\u0026subtype=0\u0026unicast=true\u0026proto=Onvif"
+        },
+        "1": {
+          "name": "MediaProfile_Channel1_SubStream1",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=1\u0026subtype=1\u0026unicast=true\u0026proto=Onvif"
+        },
+        "2": {
+          "name": "MediaProfile_Channel2_MainStream",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=2\u0026subtype=0\u0026unicast=true\u0026proto=Onvif"
+        },
+        "3": {
+          "name": "MediaProfile_Channel2_SubStream1",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=2\u0026subtype=1\u0026unicast=true\u0026proto=Onvif"
+        }
+      },
+      "name": "ptz"
+    },
+    "201": {
+      "channels": {
+        "0": {
+          "name": "MediaProfile_Channel1_MainStream",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=1\u0026subtype=0\u0026unicast=true\u0026proto=Onvif"
+        },
+        "1": {
+          "name": "MediaProfile_Channel1_SubStream1",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=1\u0026subtype=1\u0026unicast=true\u0026proto=Onvif"
+        },
+        "2": {
+          "name": "MediaProfile_Channel2_MainStream",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=2\u0026subtype=0\u0026unicast=true\u0026proto=Onvif"
+        },
+        "3": {
+          "name": "MediaProfile_Channel2_SubStream1",
+          "on_demand": true,
+          "url": "rtsp://admin:MQ123456@192.168.6.112:554/cam/realmonitor?channel=2\u0026subtype=1\u0026unicast=true\u0026proto=Onvif"
+        }
+      },
+      "name": "192.168.6.112"
+    }
+  }
+}

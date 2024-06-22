@@ -1,0 +1,49 @@
+{
+  "channel_defaults": {},
+  "server": {
+    "debug": true,
+    "http_debug": false,
+    "http_demo": true,
+    "http_dir": "web",
+    "http_login": "demo",
+    "http_password": "demo",
+    "http_port": ":8083",
+    "https": false,
+    "https_auto_tls": false,
+    "https_auto_tls_name": "",
+    "https_cert": "server.crt",
+    "https_key": "server.key",
+    "https_port": ":443",
+    "ice_credential": "123456aA@",
+    "ice_servers": [
+      "stun:192.168.100.172:3478",
+      "turn:192.168.100.172:3478"
+    ],
+    "ice_username": "coturn",
+    "log_level": "debug",
+    "rtsp_port": ":5541",
+    "token": {
+      "backend": "http://127.0.0.1/test.php",
+      "enable": false
+    },
+    "webrtc_port_max": 20020,
+    "webrtc_port_min": 20000
+  },
+  "streams": {
+    "1": {
+      "channels": {
+        "0": {
+          "debug": true,
+          "on_demand": true,
+          "url": "rtsp://admin:L24D9AB7@192.168.100.251:554/cam/realmonitor?channel=1\u0026subtype=0\u0026unicast=true\u0026proto=Onvif"
+        },
+        "1": {
+          "debug": true,
+          "on_demand": true,
+          "url": "rtsp://admin:L24D9AB7@192.168.100.251:554/cam/realmonitor?channel=1\u0026subtype=0\u0026unicast=true\u0026proto=Onvif"
+        }
+      },
+      "name": "192.168.6.150"
+    }
+  }
+}

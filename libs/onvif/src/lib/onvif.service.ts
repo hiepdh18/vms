@@ -34,6 +34,7 @@ export class OnvifService {
     try {
       const deviceInfo = await device.init();
       this.logger.log(JSON.stringify(deviceInfo, null, '  '));
+      const url = device.getProfileList();
       return deviceInfo;
     } catch (error) {
       this.logger.error(error);

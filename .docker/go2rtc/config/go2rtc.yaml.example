@@ -1,0 +1,16 @@
+api:
+  origin: "*"
+
+webrtc:
+  ice_servers:
+    - urls: [stun:192.168.100.172:3478]
+    - urls: [turn:192.168.100.172:3478]
+      username: mq_coturn
+      credential: 123456aA@
+
+streams:
+  cam-01: rtsp://admin:L24D9AB7@192.168.100.251:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif
+  device-1-channel-0: rtsp://admin:MQ123456@192.168.6.125:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif
+  device-1-channel-1: rtsp://admin:MQ123456@192.168.6.125:554/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif
+  device-1-channel-2: rtsp://admin:MQ123456@192.168.6.125:554/cam/realmonitor?channel=2&subtype=0&unicast=true&proto=Onvif
+  device-1-channel-3: rtsp://admin:MQ123456@192.168.6.125:554/cam/realmonitor?channel=2&subtype=1&unicast=true&proto=Onvif
