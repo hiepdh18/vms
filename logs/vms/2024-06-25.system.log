@@ -500,3 +500,700 @@
 [32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
 [32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
 [32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 11158  - [39m6/25/2024, 1:39:33 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:56 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:59 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:59 PM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0","pageSize":"","filters":{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}}[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:59 PM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 11260  - [39m6/25/2024, 1:41:59 PM [32m    LOG[39m  [32mActual Query: select "users".* from "users" where "username" ilike 'user' limit 10[39m
+[31m[App] 11260  - [39m6/25/2024, 1:41:59 PM [31m  ERROR[39m  [31mDBError: select "users".* from "users" where "username" ilike $1 limit $2 - relation "users" does not exist
+    at wrapError (/Users/henry/Projects/personal/vms/node_modules/db-errors/lib/dbErrors.js:19:14)
+    at handleExecuteError (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:1140:32)
+    at TableDataBuilder.execute (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:449:20)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GetForTable.execute (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5258:24)
+    at TableDataBuilder.getForTable (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5270:24)
+    at UsersService.findPaging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5372:16)
+    at UsersController.paging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:4426:16)[39m
+[32m[App] 11260  - [39m6/25/2024, 1:42:08 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 11260  - [39m6/25/2024, 1:42:08 PM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0","pageSize":"","filters":{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}}[39m
+[32m[App] 11260  - [39m6/25/2024, 1:42:08 PM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 11260  - [39m6/25/2024, 1:42:08 PM [32m    LOG[39m  [32mActual Query: select "users".* from "users" where "username" ilike 'user' limit 10[39m
+[31m[App] 11260  - [39m6/25/2024, 1:42:08 PM [31m  ERROR[39m  [31mDBError: select "users".* from "users" where "username" ilike $1 limit $2 - relation "users" does not exist
+    at wrapError (/Users/henry/Projects/personal/vms/node_modules/db-errors/lib/dbErrors.js:19:14)
+    at handleExecuteError (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:1140:32)
+    at TableDataBuilder.execute (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:449:20)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GetForTable.execute (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5258:24)
+    at TableDataBuilder.getForTable (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5270:24)
+    at UsersService.findPaging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5372:16)
+    at UsersController.paging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:4426:16)[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 11475  - [39m6/25/2024, 1:42:50 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 11475  - [39m6/25/2024, 1:43:01 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 11475  - [39m6/25/2024, 1:43:01 PM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0","pageSize":"","filters":{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}}[39m
+[32m[App] 11475  - [39m6/25/2024, 1:43:01 PM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 11475  - [39m6/25/2024, 1:43:01 PM [32m    LOG[39m  [32mActual Query: select "users".* from "users" where "username" ilike 'user' limit 10[39m
+[31m[App] 11475  - [39m6/25/2024, 1:43:01 PM [31m  ERROR[39m  [31mDBError: select "users".* from "users" where "username" ilike $1 limit $2 - relation "users" does not exist
+    at wrapError (/Users/henry/Projects/personal/vms/node_modules/db-errors/lib/dbErrors.js:19:14)
+    at handleExecuteError (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:1140:32)
+    at TableDataBuilder.execute (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:449:20)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GetForTable.execute (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5258:24)
+    at TableDataBuilder.getForTable (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5270:24)
+    at UsersService.findPaging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5372:16)
+    at UsersController.paging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:4426:16)[39m
+[32m[App] 11475  - [39m6/25/2024, 1:44:46 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 11475  - [39m6/25/2024, 1:44:46 PM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0"}[39m
+[32m[App] 11475  - [39m6/25/2024, 1:44:46 PM [32m    LOG[39m  [32mActual Query: select "users".* from "users" limit 10[39m
+[31m[App] 11475  - [39m6/25/2024, 1:44:46 PM [31m  ERROR[39m  [31mDBError: select "users".* from "users" limit $1 - relation "users" does not exist
+    at wrapError (/Users/henry/Projects/personal/vms/node_modules/db-errors/lib/dbErrors.js:19:14)
+    at handleExecuteError (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:1140:32)
+    at TableDataBuilder.execute (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:449:20)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GetForTable.execute (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5258:24)
+    at TableDataBuilder.getForTable (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5270:24)
+    at UsersService.findPaging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5372:16)
+    at UsersController.paging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:4426:16)[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:06 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:16 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:16 PM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0"}[39m
+[32m[App] 11628  - [39m6/25/2024, 1:46:17 PM [32m    LOG[39m  [32mActual Query: select "users".* from "users" limit 10[39m
+[31m[App] 11628  - [39m6/25/2024, 1:46:17 PM [31m  ERROR[39m  [31mDBError: select "users".* from "users" limit $1 - relation "users" does not exist
+    at wrapError (/Users/henry/Projects/personal/vms/node_modules/db-errors/lib/dbErrors.js:19:14)
+    at handleExecuteError (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:1140:32)
+    at TableDataBuilder.execute (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:449:20)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at GetForTable.execute (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5258:24)
+    at TableDataBuilder.getForTable (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5270:24)
+    at UsersService.findPaging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5372:16)
+    at UsersController.paging (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:4426:16)[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:03 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:36 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:36 PM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0"}[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:36 PM [32m    LOG[39m  [32mActual Query: select "users".* from "users" limit 10[39m
+[32m[App] 11695  - [39m6/25/2024, 1:47:36 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 11981  - [39m6/25/2024, 1:51:22 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:23 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:24 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:51 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:51 PM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0"}[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:51 PM [32m    LOG[39m  [32mActual Query: select "users".* from "users" limit 10[39m
+[32m[App] 12060  - [39m6/25/2024, 1:53:51 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 12060  - [39m6/25/2024, 1:58:03 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 12060  - [39m6/25/2024, 1:58:03 PM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0","filters":{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}}[39m
+[32m[App] 12060  - [39m6/25/2024, 1:58:03 PM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 12060  - [39m6/25/2024, 1:58:03 PM [32m    LOG[39m  [32mActual Query: select "users".* from "users" where "username" ilike 'user' limit 10[39m
+[32m[App] 12060  - [39m6/25/2024, 1:58:03 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[31m[App] 22542  - [39m6/25/2024, 8:17:29 PM [31m  ERROR[39m  [31munhandledRejection: Cannot find module 'ioredis'
+Require stack:
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.core-module.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.module.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/index.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/index.js
+- /Users/henry/Projects/personal/vms/dist/apps/api/main.js
+Error: Cannot find module 'ioredis'
+Require stack:
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.core-module.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.module.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/index.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/index.js
+- /Users/henry/Projects/personal/vms/dist/apps/api/main.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Function.Module._load (/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:18:31)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at Module.Hook.Module.require (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js:64:27)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js:4:19)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)[39m - {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.core-module.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.module.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/index.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/index.js","/Users/henry/Projects/personal/vms/dist/apps/api/main.js"]},"stack":"Error: Cannot find module 'ioredis'\nRequire stack:\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.core-module.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.module.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/index.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/index.js\n- /Users/henry/Projects/personal/vms/dist/apps/api/main.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:986:27)\n    at Function.Module._load (/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:18:31)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at Module.Hook.Module.require (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js:64:27)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js:4:19)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","rejection":true,"date":"Tue Jun 25 2024 20:17:29 GMT+0700 (Indochina Time)","process":{"pid":22542,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":96993280,"heapTotal":37863424,"heapUsed":26610832,"external":4314200,"arrayBuffers":141201}},"os":{"loadavg":[2.87451171875,3.0712890625,3.75439453125],"uptime":48205},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1145,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":986,"method":"_load","native":false},{"column":31,"file":"/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js","function":"Module._load","line":18,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1233,"method":"require","native":false},{"column":27,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js","function":"Module.require","line":64,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":19,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1208,"method":"load","native":false}]}
+[31m[App] 22542  - [39m6/25/2024, 8:17:29 PM [31m  ERROR[39m  [31munhandledRejection: Cannot find module 'ioredis'
+Require stack:
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.core-module.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.module.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/index.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/index.js
+- /Users/henry/Projects/personal/vms/dist/apps/api/main.js
+Error: Cannot find module 'ioredis'
+Require stack:
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.core-module.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.module.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/index.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/index.js
+- /Users/henry/Projects/personal/vms/dist/apps/api/main.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Function.Module._load (/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:18:31)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at Module.Hook.Module.require (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js:64:27)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js:4:19)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)[39m - {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.core-module.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.module.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/index.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/index.js","/Users/henry/Projects/personal/vms/dist/apps/api/main.js"]},"stack":"Error: Cannot find module 'ioredis'\nRequire stack:\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.core-module.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.module.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/index.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/index.js\n- /Users/henry/Projects/personal/vms/dist/apps/api/main.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:986:27)\n    at Function.Module._load (/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:18:31)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at Module.Hook.Module.require (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js:64:27)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js:4:19)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","rejection":true,"date":"Tue Jun 25 2024 20:17:29 GMT+0700 (Indochina Time)","process":{"pid":22542,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":96993280,"heapTotal":37863424,"heapUsed":26610832,"external":4314200,"arrayBuffers":141201}},"os":{"loadavg":[2.87451171875,3.0712890625,3.75439453125],"uptime":48205},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1145,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":986,"method":"_load","native":false},{"column":31,"file":"/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js","function":"Module._load","line":18,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1233,"method":"require","native":false},{"column":27,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js","function":"Module.require","line":64,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":19,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs-modules/ioredis/dist/redis.utils.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1208,"method":"load","native":false}]}
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 22764  - [39m6/25/2024, 8:18:58 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[31m[App] 22764  - [39m6/25/2024, 8:18:58 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:18:58 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:18:59 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:18:59 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:18:59 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:18:59 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:00 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:00 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:00 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:01 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:01 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:02 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:02 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:03 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:04 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:05 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:05 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:06 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:08 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:09 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:10 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:11 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:12 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:14 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:15 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:16 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:18 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:21 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:22 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:24 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:25 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:27 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:29 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:30 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:32 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:34 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:36 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:38 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:40 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:42 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:44 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22764  - [39m6/25/2024, 8:19:46 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 22876  - [39m6/25/2024, 8:19:50 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:50 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:51 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:51 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:51 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:51 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:51 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:52 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:52 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:52 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:53 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:53 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:54 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:54 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:55 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:56 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:57 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:57 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:58 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:19:59 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:00 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:01 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:02 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:03 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:04 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:06 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:08 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:10 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:11 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:12 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:14 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:15 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:17 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:20 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:22 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:24 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:26 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:28 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:30 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[31m[App] 22876  - [39m6/25/2024, 8:20:32 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: ReplyError: WRONGPASS invalid username-password pair or user is disabled.
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 23018  - [39m6/25/2024, 8:20:40 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[31m[App] 23018  - [39m6/25/2024, 8:20:40 PM [31m  ERROR[39m  [31munhandledRejection: ERR value is not an integer or out of range
+ReplyError: ERR value is not an integer or out of range
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m - {"error":{"command":{"name":"select","args":["NaN"]}},"stack":"ReplyError: ERR value is not an integer or out of range\n    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)\n    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)","rejection":true,"date":"Tue Jun 25 2024 20:20:40 GMT+0700 (Indochina Time)","process":{"pid":23018,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":139968512,"heapTotal":78184448,"heapUsed":33595128,"external":4529589,"arrayBuffers":179784}},"os":{"loadavg":[3.8603515625,3.45654296875,3.77197265625],"uptime":48396},"trace":[{"column":12,"file":"/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js","function":"parseError","line":179,"method":null,"native":false},{"column":14,"file":"/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js","function":"parseType","line":302,"method":null,"native":false}]}
+[31m[App] 23018  - [39m6/25/2024, 8:20:40 PM [31m  ERROR[39m  [31munhandledRejection: ERR value is not an integer or out of range
+ReplyError: ERR value is not an integer or out of range
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m - {"error":{"command":{"name":"select","args":["NaN"]}},"stack":"ReplyError: ERR value is not an integer or out of range\n    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)\n    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)","rejection":true,"date":"Tue Jun 25 2024 20:20:40 GMT+0700 (Indochina Time)","process":{"pid":23018,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":139968512,"heapTotal":78184448,"heapUsed":33595128,"external":4529589,"arrayBuffers":179784}},"os":{"loadavg":[3.8603515625,3.45654296875,3.77197265625],"uptime":48396},"trace":[{"column":12,"file":"/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js","function":"parseError","line":179,"method":null,"native":false},{"column":14,"file":"/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js","function":"parseType","line":302,"method":null,"native":false}]}
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 23162  - [39m6/25/2024, 8:22:23 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[31m[App] 23162  - [39m6/25/2024, 8:22:23 PM [31m  ERROR[39m  [31munhandledRejection: ERR value is not an integer or out of range
+ReplyError: ERR value is not an integer or out of range
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m - {"error":{"command":{"name":"select","args":["NaN"]}},"stack":"ReplyError: ERR value is not an integer or out of range\n    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)\n    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)","rejection":true,"date":"Tue Jun 25 2024 20:22:23 GMT+0700 (Indochina Time)","process":{"pid":23162,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":141721600,"heapTotal":78708736,"heapUsed":33742768,"external":4529617,"arrayBuffers":179812}},"os":{"loadavg":[3.14453125,3.28564453125,3.66748046875],"uptime":48499},"trace":[{"column":12,"file":"/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js","function":"parseError","line":179,"method":null,"native":false},{"column":14,"file":"/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js","function":"parseType","line":302,"method":null,"native":false}]}
+[31m[App] 23162  - [39m6/25/2024, 8:22:23 PM [31m  ERROR[39m  [31munhandledRejection: ERR value is not an integer or out of range
+ReplyError: ERR value is not an integer or out of range
+    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)
+    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)[39m - {"error":{"command":{"name":"select","args":["NaN"]}},"stack":"ReplyError: ERR value is not an integer or out of range\n    at parseError (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:179:12)\n    at parseType (/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js:302:14)","rejection":true,"date":"Tue Jun 25 2024 20:22:23 GMT+0700 (Indochina Time)","process":{"pid":23162,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":141721600,"heapTotal":78708736,"heapUsed":33742768,"external":4529617,"arrayBuffers":179812}},"os":{"loadavg":[3.14453125,3.28564453125,3.66748046875],"uptime":48499},"trace":[{"column":12,"file":"/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js","function":"parseError","line":179,"method":null,"native":false},{"column":14,"file":"/Users/henry/Projects/personal/vms/node_modules/redis-parser/lib/parser.js","function":"parseType","line":302,"method":null,"native":false}]}
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 23263  - [39m6/25/2024, 8:22:52 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m

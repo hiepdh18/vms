@@ -1,4 +1,5 @@
-import { Controller, Get, Logger, Query } from '@nestjs/common';
+import { ApiKeyGuard } from '@vms/api/auth';
+import { Controller, Get, Logger, Query, UseGuards } from '@nestjs/common';
 import { PaginationQueryDto, TableData } from '@vms/shared/base';
 import { UserEntity } from './entities/user.entity';
 import { UsersService } from './users.service';
@@ -9,6 +10,7 @@ export class UsersController {
   constructor(private service: UsersService) {}
 
   @Get()
+    @UseGuards(ApiKeyGuard)
   async paging(
     @Query() query: PaginationQueryDto
   ): Promise<TableData<UserEntity>> {
