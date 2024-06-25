@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./dist/apps/api
+      dockerfile: Dockerfile
+    container_name: api
+    restart: always
+    environment:
+      - LOG_LEVEL=warn
+      - DB_TYPE=pg
+      - DB_HOST=192.168.100.172
+      - DB_PORT=5432
+      - DB_USER=dev
+      - DB_PASS=123456aA@
+      - DB_NAME=vms
+    # volumns:
+    #     - ./volumes/logs:/d
+    privileged: true # cấp quyền mount nfs
+    ports:
+      - 3333:3333

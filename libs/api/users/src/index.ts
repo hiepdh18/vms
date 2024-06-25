@@ -1,3 +1,3 @@
-export * from './users/users.controller';
-export * from './users/users.service';
-export * from './users/users.module';
+export * from './lib/users.controller';
+export * from './lib/users.service';
+export * from './lib/users.module';

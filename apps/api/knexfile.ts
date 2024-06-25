@@ -1,9 +1,10 @@
 import * as dotenv from 'dotenv';
 dotenv.config();
-
+import { existsSync, mkdirSync } from 'fs-extra';
 import type { Knex } from 'knex';
-import { mkdirSync, existsSync } from 'fs-extra';
+import * as pg from 'pg';
 
+console.log(pg)
 const { DB_TYPE, DB_NAME, DB_HOST, DB_PORT, DB_USER, DB_PASS } = process.env;
 if (!existsSync(__dirname + '/database/migrations')) {
   mkdirSync(__dirname + '/database/migrations', { recursive: true });
@@ -28,7 +29,11 @@ const config: { [key: string]: Knex.Config } = {
       loadExtensions: ['.ts'],
       extension: 'ts',
     },
-    seeds: { directory: './database/seeds', loadExtensions: ['.ts'], extension: 'ts' },
+    seeds: {
+      directory: './database/seeds',
+      loadExtensions: ['.ts'],
+      extension: 'ts',
+    },
   },
 
   staging: {

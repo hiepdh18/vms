@@ -1,5 +1,5 @@
 import { Model, Page, QueryBuilder, raw, val } from 'objection';
-import * as dayjs from 'dayjs';
+import dayjs from 'dayjs';
 /**
  * example:
  * {
@@ -23,7 +23,7 @@ export interface FilterObject {
 // }
 export interface Sorter {
   field: string;
-  direction: 'asc' | 'desc';
+  direction: 'asc' | 'desc' | 'ascend' | 'descend';
 }
 export interface TableData<T extends object> {
   data: T[];
@@ -51,6 +51,7 @@ class GetForTable<M extends Model, R = M[]> {
   }
 
   buildFilters(filters: FilterObject) {
+    console.log(JSON.stringify(filters));
     if (typeof filters == 'string') filters = JSON.parse(filters);
     const filterColumns = Object.keys(filters);
     for (const column of filterColumns) {
@@ -79,6 +80,7 @@ class GetForTable<M extends Model, R = M[]> {
             break;
 
           case 'contains':
+            console.log(value);
             this.builder.where(
               field,
               matchCase == 'true' ? 'LIKE' : 'ILIKE',
@@ -245,7 +247,13 @@ class GetForTable<M extends Model, R = M[]> {
     const { filters, sorters, pageSize, page } = params;
     if (filters) this.buildFilters(filters);
     if (sorters) this.buildSorters(sorters);
-
+    console.log(
+      'Actual Query: ' +
+        this.builder
+          .page(page || 0, pageSize || 10)
+          .toKnexQuery()
+          .toQuery()
+    );
     const result = await this.builder.page(page || 0, pageSize || 10);
     return {
       data: result.results,

@@ -3,6 +3,7 @@ import { Roles } from '@vms/shared/constants';
 import { IUser } from '@vms/shared/interfaces';
 import { JSONSchema } from 'objection';
 import dayjs = require('dayjs');
+import { RoleEntity } from './role.entity';
 
 export class UserEntity extends BaseEntity implements IUser {
   static override tableName = 'users';
@@ -56,8 +57,7 @@ export class UserEntity extends BaseEntity implements IUser {
   }
 
   static override get relationMappings() {
-    // eslint-disable-next-line
-    const { RoleEntity } = require('@mq-vms/api-op/users');
+    // const { RoleEntity } = require('@vms/api/users');
     return {
       role: {
         relation: BaseEntity.BelongsToOneRelation,

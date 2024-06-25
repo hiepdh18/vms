@@ -5,9 +5,10 @@ import { PtzModule } from '@vms/api/ws/ptz';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { HttpExceptionFilter } from './exception.filter';
+import { UsersModule } from '@vms/api/users';
 
 @Module({
-  imports: [OnvifModule, PtzModule],
+  imports: [OnvifModule, PtzModule, UsersModule],
   controllers: [AppController],
   providers: [
     {

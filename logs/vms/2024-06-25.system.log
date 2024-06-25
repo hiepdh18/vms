@@ -1,0 +1,502 @@
+[32m[App] 4353   - [39m6/25/2024, 6:56:41 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:41 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:41 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:41 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:41 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:41 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:41 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 4353   - [39m6/25/2024, 6:56:42 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3335[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 4428   - [39m6/25/2024, 6:57:03 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:05 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:05 AM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0","pageSize":"","filters":{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}}[39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:05 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:05 AM [32m    LOG[39m  [32m[{"id":2,"username":"user","password":"$2b$10$iNT.d38.rdsRvRMU95WTSu0ZMUBi/Dbwsrzw7yu0vT60T9EPu8eNi","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":2,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:05 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:12 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:12 AM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0","pageSize":"","filters":{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}}[39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:12 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:12 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 4428   - [39m6/25/2024, 6:58:12 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:04 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:11 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:11 AM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0","pageSize":"","filters":{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}}[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:11 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:11 AM [32m    LOG[39m  [32m[{"id":1,"username":"admin","password":"$2a$12$SfQPG3wWMz6TfBHh3T7Qgexuc10IttcK.RmSQ4Gl04y6zubPJN4GO","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":1,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:11 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:18 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:18 AM [32m    LOG[39m [33m[UsersController][39m [32m{"page":"0","pageSize":"","filters":{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}}[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:18 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:18 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 4628   - [39m6/25/2024, 6:59:18 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 4857   - [39m6/25/2024, 7:01:16 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:15 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:23 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:23 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:23 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' limit 10[39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:23 AM [32m    LOG[39m  [32m[{"id":2,"username":"user","password":"$2b$10$iNT.d38.rdsRvRMU95WTSu0ZMUBi/Dbwsrzw7yu0vT60T9EPu8eNi","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":2,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 5013   - [39m6/25/2024, 7:03:23 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5013   - [39m6/25/2024, 7:04:07 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5013   - [39m6/25/2024, 7:04:07 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 5013   - [39m6/25/2024, 7:04:07 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' limit 10[39m
+[32m[App] 5013   - [39m6/25/2024, 7:04:07 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5013   - [39m6/25/2024, 7:04:07 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:10 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:14 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:14 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:14 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'admin' limit 10[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:14 AM [32m    LOG[39m  [32m[{"id":1,"username":"admin","password":"$2a$12$SfQPG3wWMz6TfBHh3T7Qgexuc10IttcK.RmSQ4Gl04y6zubPJN4GO","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":1,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:14 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:14 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'admin' and "username" ilike 'user' limit 10[39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:14 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5244   - [39m6/25/2024, 7:07:14 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:44 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:53 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:53 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:53 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' limit 10[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:53 AM [32m    LOG[39m  [32m[{"id":2,"username":"user","password":"$2b$10$iNT.d38.rdsRvRMU95WTSu0ZMUBi/Dbwsrzw7yu0vT60T9EPu8eNi","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":2,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:53 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:53 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' limit 10[39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:53 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5309   - [39m6/25/2024, 7:07:53 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:32 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:44 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:44 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:44 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' limit 10[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:44 AM [32m    LOG[39m  [32m[{"id":2,"username":"user","password":"$2b$10$iNT.d38.rdsRvRMU95WTSu0ZMUBi/Dbwsrzw7yu0vT60T9EPu8eNi","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":2,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:44 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:44 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' limit 10[39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:44 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5699   - [39m6/25/2024, 8:36:44 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:39 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:39 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:39 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' limit 10[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:39 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:39 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:39 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' limit 10[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:39 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:39 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:55 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:55 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:55 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' limit 10[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:55 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:55 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:55 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' limit 10[39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:55 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5699   - [39m6/25/2024, 8:50:55 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5699   - [39m6/25/2024, 8:51:40 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5699   - [39m6/25/2024, 8:51:40 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 5699   - [39m6/25/2024, 8:51:40 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' limit 10[39m
+[32m[App] 5699   - [39m6/25/2024, 8:51:40 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5699   - [39m6/25/2024, 8:51:40 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 5699   - [39m6/25/2024, 8:51:40 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' and "username" ilike 'user' and "username" ilike 'admin' limit 10[39m
+[32m[App] 5699   - [39m6/25/2024, 8:51:40 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 5699   - [39m6/25/2024, 8:51:40 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:05 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:26 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:26 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:26 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' limit 10[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:26 AM [32m    LOG[39m  [32m[{"id":2,"username":"user","password":"$2b$10$iNT.d38.rdsRvRMU95WTSu0ZMUBi/Dbwsrzw7yu0vT60T9EPu8eNi","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":2,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:26 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:26 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' and "username" ilike 'admin' limit 10[39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:26 AM [32m    LOG[39m  [32m[][39m
+[32m[App] 6022   - [39m6/25/2024, 8:52:26 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6196   - [39m6/25/2024, 9:00:33 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6245   - [39m6/25/2024, 9:00:50 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:55 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:59 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:59 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:59 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' limit 10[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:59 AM [32m    LOG[39m  [32m[{"id":2,"username":"user","password":"$2b$10$iNT.d38.rdsRvRMU95WTSu0ZMUBi/Dbwsrzw7yu0vT60T9EPu8eNi","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":2,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:59 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:59 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'admin' limit 10[39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:59 AM [32m    LOG[39m  [32m[{"id":1,"username":"admin","password":"$2a$12$SfQPG3wWMz6TfBHh3T7Qgexuc10IttcK.RmSQ4Gl04y6zubPJN4GO","name":null,"email":null,"refreshToken":null,"lastLogin":null,"firstLogin":true,"settings":null,"roleId":1,"createdAt":"2024-06-23T03:19:48.981Z","updatedAt":"2024-06-23T03:19:48.981Z","isLocked":false}][39m
+[32m[App] 6279   - [39m6/25/2024, 9:00:59 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6362   - [39m6/25/2024, 9:02:27 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:31 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:40 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:40 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:40 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'user' limit 10[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:40 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:40 AM [32m    LOG[39m  [32mselect "users".* from "users" where "username" ilike 'admin' limit 10[39m
+[32m[App] 6460   - [39m6/25/2024, 9:05:40 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6549   - [39m6/25/2024, 9:08:00 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:06 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:10 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:10 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"user","matchCase":"false"}}[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:10 AM [32m    LOG[39m  [32mActual Query: select "users".* from "users" where "username" ilike 'user' limit 10[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:10 AM [32m    LOG[39m  [32m{"username":{"field":"username","operation":"equals","value":"admin","matchCase":"false"}}[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:10 AM [32m    LOG[39m  [32mActual Query: select "users".* from "users" where "username" ilike 'admin' limit 10[39m
+[32m[App] 6585   - [39m6/25/2024, 9:08:10 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:48 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6642   - [39m6/25/2024, 9:08:49 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6690   - [39m6/25/2024, 9:09:01 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m

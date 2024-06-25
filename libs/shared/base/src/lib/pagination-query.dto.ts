@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsOptional } from 'class-validator';
+import { IsOptional, IsString } from 'class-validator';
 
 class Filter {
   @ApiProperty({ required: false })
@@ -12,7 +12,7 @@ class Filter {
 
   @ApiProperty({ required: false })
   @IsOptional()
-  operator: string;
+  operation: string;
 
   @ApiProperty({ required: false })
   @IsOptional()
@@ -26,13 +26,14 @@ class Sorter {
 
   @ApiProperty({ required: false })
   @IsOptional()
-  direction: string;
+  @IsString()
+  direction: 'asc' | 'desc' | 'ascend' | 'descend';
 }
 
 export class PaginationQueryDto {
   @ApiProperty({ required: false, type: 'object', isArray: true })
   @IsOptional()
-  filters: Filter[];
+  filters: { [x: string]: Filter };
 
   @ApiProperty({ required: false, type: 'object', isArray: true })
   @IsOptional()

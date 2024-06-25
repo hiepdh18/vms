@@ -24,6 +24,21 @@
             "date": 1718991042121,
             "name": "logs/vms/2024-06-22.system.log",
             "hash": "2d98d5499362a730fe13d6618a274200fb83ad05e3796a7a47490c7b8155d3bb"
+        },
+        {
+            "date": 1719075781356,
+            "name": "logs/vms/2024-06-23.system.log",
+            "hash": "d41b25b75a3814f8e0fd67d276d4a6ed21def64c017ee1318d996287d1f1c9f7"
+        },
+        {
+            "date": 1719220935034,
+            "name": "logs/vms/2024-06-24.system.log",
+            "hash": "aefc9db82ae22046ce5bd69a9a2cc93945b043a07902ff379684570ede40a718"
+        },
+        {
+            "date": 1719273401344,
+            "name": "logs/vms/2024-06-25.system.log",
+            "hash": "c8cf6ac52cd4ccb022157a539f328352f50379bf768c639d4e811ce17212bd2a"
         }
     ],
     "hashType": "sha256"
