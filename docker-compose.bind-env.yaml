@@ -1,0 +1,19 @@
+version: '3.8'
+# USE THIS IN CASE OPERATION SYSTEM NOT SUPPORT TO BUILD CODE
+services:
+  vms_env:
+    container_name: vms_env
+    restart: always
+    # image: api-op-libs:1.0
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    command: ['tail', '-f', '/dev/null']
+    # ports:
+    #   - "4200:4200"
+    #   - "3333:3333"
+    #   - "8083:8083"
+    #   - "9229:9229"
+    #   - "9239:9239"
+    volumes:
+      - .:/app/
