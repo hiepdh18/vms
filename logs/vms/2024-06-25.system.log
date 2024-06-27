@@ -1197,3 +1197,551 @@ ReplyError: ERR value is not an integer or out of range
 [32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
 [32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
 [32m[App] 23323  - [39m6/25/2024, 8:23:24 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 27223  - [39m6/25/2024, 9:29:26 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:04 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:21 PM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:21 PM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:43 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:43 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 28114  - [39m6/25/2024, 9:42:43 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[31m[App] 28114  - [39m6/25/2024, 9:42:43 PM [31m  ERROR[39m  [31munhandledRejection: Connection in subscriber mode, only subscriber commands may be used
+Error: Connection in subscriber mode, only subscriber commands may be used
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)
+    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5644:20)
+    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at bound (node:async_hooks:238:16)[39m - {"error":{},"stack":"Error: Connection in subscriber mode, only subscriber commands may be used\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)\n    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)\n    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5644:20)\n    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29\n    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at bound (node:async_hooks:238:16)","rejection":true,"date":"Tue Jun 25 2024 21:42:43 GMT+0700 (Indochina Time)","process":{"pid":28114,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":75956224,"heapTotal":36667392,"heapUsed":34948200,"external":4524344,"arrayBuffers":174539}},"os":{"loadavg":[2.98046875,3.13134765625,2.78759765625],"uptime":53319},"trace":[{"column":28,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js","function":"EventEmitter.sendCommand","line":337,"method":"sendCommand","native":false},{"column":53,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js","function":"EventEmitter.sendCommand","line":16,"method":"sendCommand","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js","function":"EventEmitter.publish","line":90,"method":"publish","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppService.getData","line":5644,"method":"getData","native":false},{"column":32,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppController.getData","line":5608,"method":"getData","native":false},{"column":29,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js","function":null,"line":38,"method":null,"native":false},{"column":33,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":"InterceptorsConsumer.transformDeferred","line":31,"method":"transformDeferred","native":false},{"column":86,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":null,"line":18,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"node:async_hooks","function":"bound","line":238,"method":null,"native":false}]}
+[31m[App] 28114  - [39m6/25/2024, 9:42:43 PM [31m  ERROR[39m  [31munhandledRejection: Connection in subscriber mode, only subscriber commands may be used
+Error: Connection in subscriber mode, only subscriber commands may be used
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)
+    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5644:20)
+    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at bound (node:async_hooks:238:16)[39m - {"error":{},"stack":"Error: Connection in subscriber mode, only subscriber commands may be used\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)\n    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)\n    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5644:20)\n    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29\n    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at bound (node:async_hooks:238:16)","rejection":true,"date":"Tue Jun 25 2024 21:42:43 GMT+0700 (Indochina Time)","process":{"pid":28114,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":75956224,"heapTotal":36667392,"heapUsed":34948200,"external":4524344,"arrayBuffers":174539}},"os":{"loadavg":[2.98046875,3.13134765625,2.78759765625],"uptime":53319},"trace":[{"column":28,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js","function":"EventEmitter.sendCommand","line":337,"method":"sendCommand","native":false},{"column":53,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js","function":"EventEmitter.sendCommand","line":16,"method":"sendCommand","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js","function":"EventEmitter.publish","line":90,"method":"publish","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppService.getData","line":5644,"method":"getData","native":false},{"column":32,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppController.getData","line":5608,"method":"getData","native":false},{"column":29,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js","function":null,"line":38,"method":null,"native":false},{"column":33,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":"InterceptorsConsumer.transformDeferred","line":31,"method":"transformDeferred","native":false},{"column":86,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":null,"line":18,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"node:async_hooks","function":"bound","line":238,"method":null,"native":false}]}
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:12 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:18 PM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:18 PM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:24 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:24 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:24 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:39 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:39 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 28609  - [39m6/25/2024, 9:49:39 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:46 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:47 PM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:47 PM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:52 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:52 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 28782  - [39m6/25/2024, 9:50:52 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 28782  - [39m6/25/2024, 9:51:03 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 28782  - [39m6/25/2024, 9:51:03 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 28782  - [39m6/25/2024, 9:51:03 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:12 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:14 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:14 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:14 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:18 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:18 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:18 PM [32m    LOG[39m [33m[AppService][39m [32m1[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:18 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:22 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:22 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:22 PM [32m    LOG[39m [33m[AppService][39m [32m1[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:22 PM [32m    LOG[39m [33m[AppService][39m [32m1[39m
+[32m[App] 28912  - [39m6/25/2024, 9:52:22 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:39 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:52 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:52 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:52 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:54 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:54 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:54 PM [32m    LOG[39m [33m[AppService][39m [32mcontrolSignal[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:54 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:59 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:59 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:59 PM [32m    LOG[39m [33m[AppService][39m [32mcontrolSignal[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:59 PM [32m    LOG[39m [33m[AppService][39m [32mcontrolSignal[39m
+[32m[App] 29046  - [39m6/25/2024, 9:52:59 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:06 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:10 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:10 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:10 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:11 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:11 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:11 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:13 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:13 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:13 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:14 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:14 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:14 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:15 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:15 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29175  - [39m6/25/2024, 9:54:15 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:27 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:30 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:30 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:30 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:30 PM [32m    LOG[39m [33m[AppService][39m [32m1[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:33 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:33 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29368  - [39m6/25/2024, 9:56:33 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[31m[App] 29368  - [39m6/25/2024, 9:56:33 PM [31m  ERROR[39m  [31munhandledRejection: Connection in subscriber mode, only subscriber commands may be used
+Error: Connection in subscriber mode, only subscriber commands may be used
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)
+    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5653:20)
+    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at bound (node:async_hooks:238:16)[39m - {"error":{},"stack":"Error: Connection in subscriber mode, only subscriber commands may be used\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)\n    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)\n    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5653:20)\n    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29\n    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at bound (node:async_hooks:238:16)","rejection":true,"date":"Tue Jun 25 2024 21:56:33 GMT+0700 (Indochina Time)","process":{"pid":29368,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":139821056,"heapTotal":79429632,"heapUsed":34993384,"external":4529622,"arrayBuffers":179817}},"os":{"loadavg":[4.10400390625,3.34375,3.0263671875],"uptime":54149},"trace":[{"column":28,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js","function":"EventEmitter.sendCommand","line":337,"method":"sendCommand","native":false},{"column":53,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js","function":"EventEmitter.sendCommand","line":16,"method":"sendCommand","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js","function":"EventEmitter.publish","line":90,"method":"publish","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppService.getData","line":5653,"method":"getData","native":false},{"column":32,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppController.getData","line":5608,"method":"getData","native":false},{"column":29,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js","function":null,"line":38,"method":null,"native":false},{"column":33,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":"InterceptorsConsumer.transformDeferred","line":31,"method":"transformDeferred","native":false},{"column":86,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":null,"line":18,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"node:async_hooks","function":"bound","line":238,"method":null,"native":false}]}
+[31m[App] 29368  - [39m6/25/2024, 9:56:33 PM [31m  ERROR[39m  [31munhandledRejection: Connection in subscriber mode, only subscriber commands may be used
+Error: Connection in subscriber mode, only subscriber commands may be used
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)
+    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5653:20)
+    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at bound (node:async_hooks:238:16)[39m - {"error":{},"stack":"Error: Connection in subscriber mode, only subscriber commands may be used\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)\n    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)\n    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5653:20)\n    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29\n    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at bound (node:async_hooks:238:16)","rejection":true,"date":"Tue Jun 25 2024 21:56:33 GMT+0700 (Indochina Time)","process":{"pid":29368,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":139821056,"heapTotal":79429632,"heapUsed":34993384,"external":4529622,"arrayBuffers":179817}},"os":{"loadavg":[4.10400390625,3.34375,3.0263671875],"uptime":54149},"trace":[{"column":28,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js","function":"EventEmitter.sendCommand","line":337,"method":"sendCommand","native":false},{"column":53,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js","function":"EventEmitter.sendCommand","line":16,"method":"sendCommand","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js","function":"EventEmitter.publish","line":90,"method":"publish","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppService.getData","line":5653,"method":"getData","native":false},{"column":32,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppController.getData","line":5608,"method":"getData","native":false},{"column":29,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js","function":null,"line":38,"method":null,"native":false},{"column":33,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":"InterceptorsConsumer.transformDeferred","line":31,"method":"transformDeferred","native":false},{"column":86,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":null,"line":18,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"node:async_hooks","function":"bound","line":238,"method":null,"native":false}]}
+[32m[App] 29368  - [39m6/25/2024, 9:56:33 PM [32m    LOG[39m [33m[AppService][39m [32m1[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:11 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:16 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:16 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:16 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 29459  - [39m6/25/2024, 9:57:16 PM [32m    LOG[39m [33m[AppService][39m [32m1[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "subscribe.test" message[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[WebSocketsController][39m [32mPtzGateway subscribed to the "unSubscribe.test" message[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:02 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:07 PM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:07 PM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:13 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:13 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29534  - [39m6/25/2024, 9:58:13 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[31m[App] 29534  - [39m6/25/2024, 9:58:13 PM [31m  ERROR[39m  [31munhandledRejection: Connection in subscriber mode, only subscriber commands may be used
+Error: Connection in subscriber mode, only subscriber commands may be used
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)
+    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5653:20)
+    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at bound (node:async_hooks:238:16)[39m - {"error":{},"stack":"Error: Connection in subscriber mode, only subscriber commands may be used\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)\n    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)\n    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5653:20)\n    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29\n    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at bound (node:async_hooks:238:16)","rejection":true,"date":"Tue Jun 25 2024 21:58:13 GMT+0700 (Indochina Time)","process":{"pid":29534,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":101171200,"heapTotal":36700160,"heapUsed":34890440,"external":4524075,"arrayBuffers":174270}},"os":{"loadavg":[3.35888671875,3.21484375,3.00390625],"uptime":54249},"trace":[{"column":28,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js","function":"EventEmitter.sendCommand","line":337,"method":"sendCommand","native":false},{"column":53,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js","function":"EventEmitter.sendCommand","line":16,"method":"sendCommand","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js","function":"EventEmitter.publish","line":90,"method":"publish","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppService.getData","line":5653,"method":"getData","native":false},{"column":32,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppController.getData","line":5608,"method":"getData","native":false},{"column":29,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js","function":null,"line":38,"method":null,"native":false},{"column":33,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":"InterceptorsConsumer.transformDeferred","line":31,"method":"transformDeferred","native":false},{"column":86,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":null,"line":18,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"node:async_hooks","function":"bound","line":238,"method":null,"native":false}]}
+[31m[App] 29534  - [39m6/25/2024, 9:58:13 PM [31m  ERROR[39m  [31munhandledRejection: Connection in subscriber mode, only subscriber commands may be used
+Error: Connection in subscriber mode, only subscriber commands may be used
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)
+    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5653:20)
+    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at bound (node:async_hooks:238:16)[39m - {"error":{},"stack":"Error: Connection in subscriber mode, only subscriber commands may be used\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)\n    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)\n    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5653:20)\n    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5608:32)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29\n    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at bound (node:async_hooks:238:16)","rejection":true,"date":"Tue Jun 25 2024 21:58:13 GMT+0700 (Indochina Time)","process":{"pid":29534,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":101171200,"heapTotal":36700160,"heapUsed":34890440,"external":4524075,"arrayBuffers":174270}},"os":{"loadavg":[3.35888671875,3.21484375,3.00390625],"uptime":54249},"trace":[{"column":28,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js","function":"EventEmitter.sendCommand","line":337,"method":"sendCommand","native":false},{"column":53,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js","function":"EventEmitter.sendCommand","line":16,"method":"sendCommand","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js","function":"EventEmitter.publish","line":90,"method":"publish","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppService.getData","line":5653,"method":"getData","native":false},{"column":32,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppController.getData","line":5608,"method":"getData","native":false},{"column":29,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js","function":null,"line":38,"method":null,"native":false},{"column":33,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":"InterceptorsConsumer.transformDeferred","line":31,"method":"transformDeferred","native":false},{"column":86,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":null,"line":18,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"node:async_hooks","function":"bound","line":238,"method":null,"native":false}]}
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:22 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:28 PM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:28 PM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:37 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:37 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 29653  - [39m6/25/2024, 9:59:37 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[31m[App] 29653  - [39m6/25/2024, 9:59:37 PM [31m  ERROR[39m  [31munhandledRejection: Connection in subscriber mode, only subscriber commands may be used
+Error: Connection in subscriber mode, only subscriber commands may be used
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)
+    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5612:20)
+    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5567:32)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at bound (node:async_hooks:238:16)[39m - {"error":{},"stack":"Error: Connection in subscriber mode, only subscriber commands may be used\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)\n    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)\n    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5612:20)\n    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5567:32)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29\n    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at bound (node:async_hooks:238:16)","rejection":true,"date":"Tue Jun 25 2024 21:59:37 GMT+0700 (Indochina Time)","process":{"pid":29653,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":100401152,"heapTotal":36667392,"heapUsed":34630264,"external":4524075,"arrayBuffers":174270}},"os":{"loadavg":[2.5927734375,3.08154296875,2.9736328125],"uptime":54333},"trace":[{"column":28,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js","function":"EventEmitter.sendCommand","line":337,"method":"sendCommand","native":false},{"column":53,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js","function":"EventEmitter.sendCommand","line":16,"method":"sendCommand","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js","function":"EventEmitter.publish","line":90,"method":"publish","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppService.getData","line":5612,"method":"getData","native":false},{"column":32,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppController.getData","line":5567,"method":"getData","native":false},{"column":29,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js","function":null,"line":38,"method":null,"native":false},{"column":33,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":"InterceptorsConsumer.transformDeferred","line":31,"method":"transformDeferred","native":false},{"column":86,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":null,"line":18,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"node:async_hooks","function":"bound","line":238,"method":null,"native":false}]}
+[31m[App] 29653  - [39m6/25/2024, 9:59:37 PM [31m  ERROR[39m  [31munhandledRejection: Connection in subscriber mode, only subscriber commands may be used
+Error: Connection in subscriber mode, only subscriber commands may be used
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)
+    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)
+    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)
+    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5612:20)
+    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5567:32)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at bound (node:async_hooks:238:16)[39m - {"error":{},"stack":"Error: Connection in subscriber mode, only subscriber commands may be used\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js:337:28)\n    at EventEmitter.sendCommand (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js:16:53)\n    at EventEmitter.publish (/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js:90:25)\n    at AppService.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5612:20)\n    at AppController.getData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5567:32)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29\n    at InterceptorsConsumer.transformDeferred (/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:31:33)\n    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:18:86\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at bound (node:async_hooks:238:16)","rejection":true,"date":"Tue Jun 25 2024 21:59:37 GMT+0700 (Indochina Time)","process":{"pid":29653,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":100401152,"heapTotal":36667392,"heapUsed":34630264,"external":4524075,"arrayBuffers":174270}},"os":{"loadavg":[2.5927734375,3.08154296875,2.9736328125],"uptime":54333},"trace":[{"column":28,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/Redis.js","function":"EventEmitter.sendCommand","line":337,"method":"sendCommand","native":false},{"column":53,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/datadog-instrumentations/src/ioredis.js","function":"EventEmitter.sendCommand","line":16,"method":"sendCommand","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/ioredis/built/utils/Commander.js","function":"EventEmitter.publish","line":90,"method":"publish","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppService.getData","line":5612,"method":"getData","native":false},{"column":32,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"AppController.getData","line":5567,"method":"getData","native":false},{"column":29,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js","function":null,"line":38,"method":null,"native":false},{"column":33,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":"InterceptorsConsumer.transformDeferred","line":31,"method":"transformDeferred","native":false},{"column":86,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/core/interceptors/interceptors-consumer.js","function":null,"line":18,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"node:async_hooks","function":"bound","line":238,"method":null,"native":false}]}
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 29853  - [39m6/25/2024, 10:02:07 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 29947  - [39m6/25/2024, 10:02:48 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 30027  - [39m6/25/2024, 10:02:55 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 30027  - [39m6/25/2024, 10:04:53 PM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 30027  - [39m6/25/2024, 10:04:53 PM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 30027  - [39m6/25/2024, 10:04:59 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 30027  - [39m6/25/2024, 10:04:59 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 30027  - [39m6/25/2024, 10:04:59 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 30027  - [39m6/25/2024, 10:04:59 PM [32m    LOG[39m [33m[PtzGateway][39m [32m{"name":"test"}[39m
+[32m[App] 30027  - [39m6/25/2024, 10:05:16 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 30027  - [39m6/25/2024, 10:05:16 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 30027  - [39m6/25/2024, 10:05:16 PM [32m    LOG[39m [33m[PtzGateway][39m [32m{"name":"test"}[39m
+[32m[App] 30027  - [39m6/25/2024, 10:05:16 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:04 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:08 PM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:08 PM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:14 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:14 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:14 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:14 PM [32m    LOG[39m [33m[PtzGateway][39m [32m{"name":"test"}[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:19 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:19 PM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:19 PM [32m    LOG[39m [33m[PtzGateway][39m [32m{"name":"test"}[39m
+[32m[App] 30241  - [39m6/25/2024, 10:06:19 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m

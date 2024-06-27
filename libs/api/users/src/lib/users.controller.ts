@@ -10,7 +10,7 @@ export class UsersController {
   constructor(private service: UsersService) {}
 
   @Get()
-    @UseGuards(ApiKeyGuard)
+  @UseGuards(ApiKeyGuard)
   async paging(
     @Query() query: PaginationQueryDto
   ): Promise<TableData<UserEntity>> {

@@ -17,6 +17,7 @@
     "baseUrl": ".",
     "paths": {
       "@vms/api/users": ["libs/api/users/src/index.ts"],
+      "@vms/api/users/entities": ["libs/api/users/src/entities.ts"],
       "@vms/api/ws/ptz": ["libs/api/ws/ptz/src/index.ts"],
       "@vms/api/auth": ["libs/api/auth/src/index.ts"],
       "@vms/infra/logging": ["libs/infra/logging/src/index.ts"],

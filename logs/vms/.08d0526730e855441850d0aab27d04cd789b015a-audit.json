@@ -39,6 +39,11 @@
             "date": 1719273401344,
             "name": "logs/vms/2024-06-25.system.log",
             "hash": "c8cf6ac52cd4ccb022157a539f328352f50379bf768c639d4e811ce17212bd2a"
+        },
+        {
+            "date": 1719367047734,
+            "name": "logs/vms/2024-06-26.system.log",
+            "hash": "d0c46711ef4f202e5bfa755a6f30292b8d88664e8fa7c69572441384f2db0dcb"
         }
     ],
     "hashType": "sha256"

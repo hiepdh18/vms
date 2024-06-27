@@ -7,6 +7,7 @@ import { OnvifModule } from '@vms/onvif';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { HttpExceptionFilter } from './exception.filter';
+import { AuthModule } from '@vms/api/auth';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { HttpExceptionFilter } from './exception.filter';
     OnvifModule,
     PtzModule,
     UsersModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [

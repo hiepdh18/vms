@@ -1,0 +1,1361 @@
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:28 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:45 AM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 4800   - [39m6/26/2024, 8:57:45 AM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 4800   - [39m6/26/2024, 8:58:03 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 4800   - [39m6/26/2024, 8:58:03 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[31m[App] 4800   - [39m6/26/2024, 8:58:08 AM [31m  ERROR[39m  [31mError: Connection timeout
+    at Socket.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@redis/client/dist/lib/client/socket.js:177:124)
+    at Object.onceWrapper (node:events:633:28)
+    at Socket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:590:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at processTimers (node:internal/timers:514:7)[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:40 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:44 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 4970   - [39m6/26/2024, 8:58:44 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[31m[App] 4970   - [39m6/26/2024, 8:58:50 AM [31m  ERROR[39m  [31mError: Connection timeout
+    at Socket.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@redis/client/dist/lib/client/socket.js:177:124)
+    at Object.onceWrapper (node:events:633:28)
+    at Socket.emit (node:events:519:28)
+    at Socket._onTimeout (node:net:590:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at processTimers (node:internal/timers:514:7)[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:29 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:32 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:32 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:32 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:36 AM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:36 AM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:43 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:43 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:43 AM [32m    LOG[39m [33m[PtzGateway][39m [32m{"name":"test"}[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:43 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:50 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:50 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:50 AM [32m    LOG[39m [33m[PtzGateway][39m [32m{"name":"test"}[39m
+[32m[App] 5035   - [39m6/26/2024, 8:59:50 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 6961   - [39m6/26/2024, 10:29:00 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 7017   - [39m6/26/2024, 10:29:48 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 7017   - [39m6/26/2024, 10:30:00 AM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 7017   - [39m6/26/2024, 10:30:00 AM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[31m[App] 7017   - [39m6/26/2024, 10:30:16 AM [31m  ERROR[39m  [31muncaughtException: Method not implemented.
+Error: Method not implemented.
+    at PtzGateway.handleDisconnect (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5524:15)
+    at ConsumerObserver.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:161:25)
+    at SafeSubscriber.Subscriber._next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:119:22)
+    at SafeSubscriber.Subscriber.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:75:12)
+    at /Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/distinctUntilChanged.ts:173:22
+    at OperatorSubscriber._this._next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts:70:13)
+    at OperatorSubscriber.Subscriber.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:75:12)
+    at /Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts:68:20
+    at Object.errorContext (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Subject.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts:61:5)[39m - {"error":{},"stack":"Error: Method not implemented.\n    at PtzGateway.handleDisconnect (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5524:15)\n    at ConsumerObserver.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:161:25)\n    at SafeSubscriber.Subscriber._next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:119:22)\n    at SafeSubscriber.Subscriber.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:75:12)\n    at /Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/distinctUntilChanged.ts:173:22\n    at OperatorSubscriber._this._next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts:70:13)\n    at OperatorSubscriber.Subscriber.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:75:12)\n    at /Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts:68:20\n    at Object.errorContext (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)\n    at Subject.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts:61:5)","exception":true,"date":"Wed Jun 26 2024 10:30:16 GMT+0700 (Indochina Time)","process":{"pid":7017,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":105791488,"heapTotal":40534016,"heapUsed":37601224,"external":4529764,"arrayBuffers":174237}},"os":{"loadavg":[1.7509765625,1.79248046875,1.9833984375],"uptime":39617},"trace":[{"column":15,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"PtzGateway.handleDisconnect","line":5524,"method":"handleDisconnect","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts","function":"ConsumerObserver.next","line":161,"method":"next","native":false},{"column":22,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts","function":"SafeSubscriber.Subscriber._next","line":119,"method":"_next","native":false},{"column":12,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts","function":"SafeSubscriber.Subscriber.next","line":75,"method":"next","native":false},{"column":22,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/distinctUntilChanged.ts","function":null,"line":173,"method":null,"native":false},{"column":13,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts","function":"OperatorSubscriber._this._next","line":70,"method":"_next","native":false},{"column":12,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts","function":"OperatorSubscriber.Subscriber.next","line":75,"method":"next","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts","function":null,"line":68,"method":null,"native":false},{"column":5,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/util/errorContext.ts","function":"Object.errorContext","line":29,"method":"errorContext","native":false},{"column":5,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts","function":"Subject.next","line":61,"method":"next","native":false}]}
+[31m[App] 7017   - [39m6/26/2024, 10:30:16 AM [31m  ERROR[39m  [31muncaughtException: Method not implemented.
+Error: Method not implemented.
+    at PtzGateway.handleDisconnect (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5524:15)
+    at ConsumerObserver.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:161:25)
+    at SafeSubscriber.Subscriber._next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:119:22)
+    at SafeSubscriber.Subscriber.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:75:12)
+    at /Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/distinctUntilChanged.ts:173:22
+    at OperatorSubscriber._this._next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts:70:13)
+    at OperatorSubscriber.Subscriber.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:75:12)
+    at /Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts:68:20
+    at Object.errorContext (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Subject.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts:61:5)[39m - {"error":{},"stack":"Error: Method not implemented.\n    at PtzGateway.handleDisconnect (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5524:15)\n    at ConsumerObserver.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:161:25)\n    at SafeSubscriber.Subscriber._next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:119:22)\n    at SafeSubscriber.Subscriber.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:75:12)\n    at /Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/distinctUntilChanged.ts:173:22\n    at OperatorSubscriber._this._next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts:70:13)\n    at OperatorSubscriber.Subscriber.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts:75:12)\n    at /Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts:68:20\n    at Object.errorContext (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)\n    at Subject.next (/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts:61:5)","exception":true,"date":"Wed Jun 26 2024 10:30:16 GMT+0700 (Indochina Time)","process":{"pid":7017,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":105791488,"heapTotal":40534016,"heapUsed":37601224,"external":4529764,"arrayBuffers":174237}},"os":{"loadavg":[1.7509765625,1.79248046875,1.9833984375],"uptime":39617},"trace":[{"column":15,"file":"/Users/henry/Projects/personal/vms/dist/apps/api/main.js","function":"PtzGateway.handleDisconnect","line":5524,"method":"handleDisconnect","native":false},{"column":25,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts","function":"ConsumerObserver.next","line":161,"method":"next","native":false},{"column":22,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts","function":"SafeSubscriber.Subscriber._next","line":119,"method":"_next","native":false},{"column":12,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts","function":"SafeSubscriber.Subscriber.next","line":75,"method":"next","native":false},{"column":22,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/distinctUntilChanged.ts","function":null,"line":173,"method":null,"native":false},{"column":13,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts","function":"OperatorSubscriber._this._next","line":70,"method":"_next","native":false},{"column":12,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subscriber.ts","function":"OperatorSubscriber.Subscriber.next","line":75,"method":"next","native":false},{"column":20,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts","function":null,"line":68,"method":null,"native":false},{"column":5,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/util/errorContext.ts","function":"Object.errorContext","line":29,"method":"errorContext","native":false},{"column":5,"file":"/Users/henry/Projects/personal/vms/node_modules/rxjs/src/internal/Subject.ts","function":"Subject.next","line":61,"method":"next","native":false}]}
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:07 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:11 AM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:11 AM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:20 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:20 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 7143   - [39m6/26/2024, 10:33:20 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:11 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:15 AM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:15 AM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:19 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:19 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:19 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:27 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:27 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 7214   - [39m6/26/2024, 10:34:27 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:09 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:13 AM [32m    LOG[39m [33m[PtzGateway][39m [32mClient connected: undefined[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:13 AM [32m    LOG[39m [33m[PtzGateway][39m [32mSubscribed successfully! This client is currently subscribed to 1 channels.[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:18 AM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:18 AM [32m    LOG[39m [33m[AppService][39m [32mFor testing[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:18 AM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 7297   - [39m6/26/2024, 10:36:18 AM [32m    LOG[39m [33m[PtzGateway][39m [32m{"name":"test"}[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 7355   - [39m6/26/2024, 10:36:53 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 7386   - [39m6/26/2024, 10:36:56 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 7417   - [39m6/26/2024, 10:37:03 AM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 20639  - [39m6/26/2024, 5:37:07 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:07 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:08 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:08 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:08 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:08 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:08 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:08 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:09 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:09 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:09 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:09 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:10 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:10 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:11 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:11 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:11 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:11 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:12 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:12 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:13 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:13 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:13 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:13 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:14 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:14 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:15 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:15 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:16 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:16 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:17 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:17 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:18 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:18 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:20 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:20 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:22 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:22 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:23 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:23 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:24 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:24 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:26 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:26 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:27 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:27 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:28 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:28 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:30 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:30 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:32 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:32 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:33 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:33 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:35 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:35 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:37 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:37 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:38 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:38 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:40 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:40 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:42 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:42 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:44 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:44 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:46 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 20639  - [39m6/26/2024, 5:37:46 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 24176  - [39m6/26/2024, 5:38:47 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth, POST} route[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:23 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:44 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 37659  - [39m6/26/2024, 10:10:44 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:50 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:51 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 37786  - [39m6/26/2024, 10:11:51 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:34 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:44 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:45 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:58 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 39304  - [39m6/26/2024, 10:27:59 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 39304  - [39m6/26/2024, 10:28:02 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 39304  - [39m6/26/2024, 10:28:02 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:10 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:12 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:13 PM [32m    LOG[39m  [32m🚀 [CHECKING] hash => $2a$12$hr3KBSKnJXgh0r5jfnMmG.rjyW0xD1jqJutz8d4mm6YhDjppjzCQ.[39m
+[32m[App] 39628  - [39m6/26/2024, 10:33:13 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 39628  - [39m6/26/2024, 10:34:04 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 39628  - [39m6/26/2024, 10:34:04 PM [32m    LOG[39m  [32m🚀 [CHECKING] hash => $2a$12$P4F5ppuqFxVWCDdecnGsQuoHP3RlTujaVmlL0xQdyHlJyUPo631d2[39m
+[32m[App] 39628  - [39m6/26/2024, 10:34:05 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 39628  - [39m6/26/2024, 10:34:23 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 39628  - [39m6/26/2024, 10:34:23 PM [32m    LOG[39m  [32m🚀 [CHECKING] hash => $2a$12$csLsNFc3QPx5gIvzHf7hkeL2naLtTlOoPv9BXeoE9FfZyQQ5tja1W[39m
+[32m[App] 39628  - [39m6/26/2024, 10:34:23 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 39813  - [39m6/26/2024, 10:35:06 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 39873  - [39m6/26/2024, 10:35:41 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 40159  - [39m6/26/2024, 10:39:28 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 40402  - [39m6/26/2024, 10:42:38 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 40485  - [39m6/26/2024, 10:42:52 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 40528  - [39m6/26/2024, 10:42:58 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:43 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:47 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 40688  - [39m6/26/2024, 10:44:47 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 40823  - [39m6/26/2024, 10:46:05 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:26 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:29 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 40887  - [39m6/26/2024, 10:46:29 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 40990  - [39m6/26/2024, 10:47:33 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:45 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:57 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41046  - [39m6/26/2024, 10:47:57 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:08 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41178  - [39m6/26/2024, 10:49:09 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41239  - [39m6/26/2024, 10:49:19 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:36 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:44 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41389  - [39m6/26/2024, 10:50:44 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41452  - [39m6/26/2024, 10:50:58 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41452  - [39m6/26/2024, 10:51:03 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41452  - [39m6/26/2024, 10:51:03 PM [32m    LOG[39m  [32m🚀 [CHECKING] check =>[39m - {"id":1,"username":"test","email":"test","iat":1719416877,"exp":1719420477}
+[32m[App] 41452  - [39m6/26/2024, 10:51:03 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:19 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:23 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:23 PM [32m    LOG[39m  [32m🚀 [CHECKING] check =>[39m - {"id":1,"username":"test","email":"test","iat":1719416877,"exp":1719420477}
+[32m[App] 41515  - [39m6/26/2024, 10:51:23 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:28 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41515  - [39m6/26/2024, 10:51:28 PM [32m    LOG[39m  [32m🚀 [CHECKING] check =>[39m - {"id":1,"username":"test","email":"test","iat":1719416877,"exp":1719420477}
+[32m[App] 41515  - [39m6/26/2024, 10:51:28 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:45 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41580  - [39m6/26/2024, 10:51:59 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41580  - [39m6/26/2024, 10:52:11 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:20 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41664  - [39m6/26/2024, 10:52:21 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:01 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:05 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41751  - [39m6/26/2024, 10:53:05 PM [32m    LOG[39m  [32m🚀 [CHECKING] check =>[39m - {"id":1,"username":"test","email":"test","iat":1719416877,"exp":1719420477}
+[32m[App] 41751  - [39m6/26/2024, 10:53:05 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:27 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:30 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:30 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:35 PM [32m    LOG[39m  [32m----------Begin Interceptor----------[39m
+[32m[App] 41816  - [39m6/26/2024, 10:53:35 PM [32m    LOG[39m  [32m🚀 [CHECKING] check =>[39m - {"id":1,"username":"test","email":"test","iat":1719416877,"exp":1720021677}
+[32m[App] 41816  - [39m6/26/2024, 10:53:35 PM [32m    LOG[39m  [32m----------End Interceptor----------[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 42841  - [39m6/26/2024, 11:03:35 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 42941  - [39m6/26/2024, 11:04:11 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 43000  - [39m6/26/2024, 11:04:24 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[NestFactory][39m [32mStarting Nest application...[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mLoggingModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mRedisCoreModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mJwtModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mNestServerModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mPtzModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mOnvifModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mUsersModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[InstanceLoader][39m [32mAuthModule dependencies initialized[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mNestServerController {/api/internal}:[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/liveness, GET} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/internal/version, GET} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAppController {/api}:[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api, GET} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mOnvifController {/api/onvif}:[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif, GET} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/search, GET} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/onvif/connect, POST} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mUsersController {/api/users}:[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/users, GET} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RoutesResolver][39m [32mAuthController {/api/auth}:[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/login, POST} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[RouterExplorer][39m [32mMapped {/api/auth/very, POST} route[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[NestApplication][39m [32mNest application successfully started[39m
+[32m[App] 43090  - [39m6/26/2024, 11:05:02 PM [32m    LOG[39m [33m[Bootstrap][39m [32mService listening at http://localhost:3333[39m

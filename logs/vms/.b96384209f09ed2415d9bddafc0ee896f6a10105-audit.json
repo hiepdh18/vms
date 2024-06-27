@@ -39,6 +39,11 @@
             "date": 1719273401895,
             "name": "logs/vms/2024-06-25.app.log",
             "hash": "f140872788f84d2d81ea632ee20e084ce3a20fe7186f2d57558fd42b3b68e2a1"
+        },
+        {
+            "date": 1719367048466,
+            "name": "logs/vms/2024-06-26.app.log",
+            "hash": "dfa55d738bc9be987e0404462069ea53cec3beaf2ed9d568f3a045768b45fa00"
         }
     ],
     "hashType": "sha256"
