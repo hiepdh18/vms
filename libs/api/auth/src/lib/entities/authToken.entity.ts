@@ -1,4 +1,5 @@
-import { UserEntity } from '@vms/api/users/entities';
+/* eslint-disable @typescript-eslint/no-var-requires */
+const { UserEntity } = require('@vms/api/users/entities');
 import { BaseEntity } from '@vms/shared/base';
 import { IAuthToken } from '@vms/shared/interfaces';
 
