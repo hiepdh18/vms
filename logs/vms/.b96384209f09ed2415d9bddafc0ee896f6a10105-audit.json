@@ -44,6 +44,16 @@
             "date": 1719367048466,
             "name": "logs/vms/2024-06-26.app.log",
             "hash": "dfa55d738bc9be987e0404462069ea53cec3beaf2ed9d568f3a045768b45fa00"
+        },
+        {
+            "date": 1719501198774,
+            "name": "logs/vms/2024-06-27.app.log",
+            "hash": "4aa0b1475ee12feaaa07a40d2a8a894887a59575a8f39d43bd9501a69c0ea62a"
+        },
+        {
+            "date": 1719507810774,
+            "name": "logs/vms/2024-06-28.app.log",
+            "hash": "725b9ae01a32f1ba5acfafb1abde595c0ddab3f0abe22617a4f62ead9b40c93a"
         }
     ],
     "hashType": "sha256"

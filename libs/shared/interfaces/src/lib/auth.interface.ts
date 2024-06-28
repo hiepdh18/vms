@@ -10,3 +10,8 @@ export interface ILoginResponse {
   twoFaAuthToken?: string;
   qrCode?: string;
 }
+
+export interface IAuthToken {
+  userId: number;
+  token: string;
+}

@@ -9,7 +9,7 @@ export async function up(knex: Knex): Promise<void> {
     table.string('email').nullable();
     table.string('refreshToken').nullable();
     table.dateTime('lastLogin').nullable();
-    table.boolean('firstLogin').defaultTo(false);
+    table.boolean('isLocked').defaultTo(false);
     table.jsonb('settings').nullable().comment('Individual settings');
     table
       .integer('roleId')

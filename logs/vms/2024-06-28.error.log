@@ -1,0 +1,26 @@
+[31m[App] 92159  - [39m6/28/2024, 1:54:51 PM [31m  ERROR[39m  [31mError: Unknown authentication strategy "jwt"
+    at attempt (/Users/henry/Projects/personal/vms/node_modules/passport/lib/middleware/authenticate.js:193:39)
+    at authenticate (/Users/henry/Projects/personal/vms/node_modules/passport/lib/middleware/authenticate.js:379:7)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js:88:3
+    at new Promise (<anonymous>)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js:80:83
+    at AuthenticationGuard.canActivate (/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js:44:32)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m[App] 93812  - [39m6/28/2024, 2:37:38 PM [31m  ERROR[39m  [31mError: Model AuthTokenEntity must have a static property tableName
+    at Function.getTableName (/Users/henry/Projects/personal/vms/node_modules/objection/lib/model/Model.js:352:13)
+    at TableDataBuilder.tableName (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:84:48)
+    at setDefaultTable (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:1262:25)
+    at buildKnexQuery (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:1248:21)
+    at doExecute (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:1099:31)
+    at TableDataBuilder.execute (/Users/henry/Projects/personal/vms/node_modules/objection/lib/queryBuilder/QueryBuilder.js:446:28)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AuthService.login (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5922:9)
+    at AuthController.login (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5783:16)[39m
+[31m[App] 94050  - [39m6/28/2024, 2:44:59 PM [31m  ERROR[39m  [31mTypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at AuthController.logout (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5786:30)
+    at /Users/henry/Projects/personal/vms/node_modules/@nestjs/core/router/router-execution-context.js:38:29
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m

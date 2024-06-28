@@ -17,7 +17,7 @@ export class UserEntity extends BaseEntity implements IUser {
   roleId!: number;
   settings: any;
   firstLogin!: boolean;
-  lastLogin!: Date;
+  lastLogin!: string;
   createdAt!: string;
   updatedAt!: string;
 

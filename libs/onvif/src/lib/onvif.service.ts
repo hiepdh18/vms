@@ -32,8 +32,7 @@ export class OnvifService {
       pass: password,
     });
     try {
-      // const deviceInfo = await device.init();
-      const deviceInfo = await device.getInformation();
+      const deviceInfo = await device.init();
       this.logger.log(JSON.stringify(deviceInfo, null, '  '));
       const url = device.getProfileList();
       return deviceInfo;

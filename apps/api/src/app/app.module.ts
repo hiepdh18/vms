@@ -17,8 +17,8 @@ import { AuthModule } from '@vms/api/auth';
     }),
     OnvifModule,
     PtzModule,
-    UsersModule,
     AuthModule,
+    UsersModule,
   ],
   controllers: [AppController],
   providers: [

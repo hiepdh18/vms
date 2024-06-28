@@ -1,0 +1,207 @@
+[31m[App] 70631  - [39m6/27/2024, 10:12:24 PM [31m  ERROR[39m  [31munhandledRejection: Cannot find module 'passport'
+Require stack:
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/index.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/index.js
+- /Users/henry/Projects/personal/vms/dist/apps/api/main.js
+Error: Cannot find module 'passport'
+Require stack:
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/index.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/index.js
+- /Users/henry/Projects/personal/vms/dist/apps/api/main.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Function.Module._load (/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:18:31)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at Module.Hook.Module.require (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js:64:27)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js:17:18)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)[39m - {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/index.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/index.js","/Users/henry/Projects/personal/vms/dist/apps/api/main.js"]},"stack":"Error: Cannot find module 'passport'\nRequire stack:\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/index.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/index.js\n- /Users/henry/Projects/personal/vms/dist/apps/api/main.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:986:27)\n    at Function.Module._load (/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:18:31)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at Module.Hook.Module.require (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js:64:27)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js:17:18)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","rejection":true,"date":"Thu Jun 27 2024 22:12:24 GMT+0700 (Indochina Time)","process":{"pid":70631,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":108298240,"heapTotal":57016320,"heapUsed":38033024,"external":4347298,"arrayBuffers":174226}},"os":{"loadavg":[36.18310546875,11.75732421875,6.158203125],"uptime":168145},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1145,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":986,"method":"_load","native":false},{"column":31,"file":"/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js","function":"Module._load","line":18,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1233,"method":"require","native":false},{"column":27,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js","function":"Module.require","line":64,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":18,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js","function":null,"line":17,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1208,"method":"load","native":false}]}
+[31m[App] 70631  - [39m6/27/2024, 10:12:24 PM [31m  ERROR[39m  [31munhandledRejection: Cannot find module 'passport'
+Require stack:
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/index.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/index.js
+- /Users/henry/Projects/personal/vms/dist/apps/api/main.js
+Error: Cannot find module 'passport'
+Require stack:
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/index.js
+- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/index.js
+- /Users/henry/Projects/personal/vms/dist/apps/api/main.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Function.Module._load (/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:18:31)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at Module.Hook.Module.require (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js:64:27)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js:17:18)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)[39m - {"error":{"code":"MODULE_NOT_FOUND","requireStack":["/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/index.js","/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/index.js","/Users/henry/Projects/personal/vms/dist/apps/api/main.js"]},"stack":"Error: Cannot find module 'passport'\nRequire stack:\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/index.js\n- /Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/index.js\n- /Users/henry/Projects/personal/vms/dist/apps/api/main.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:986:27)\n    at Function.Module._load (/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:18:31)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at Module.Hook.Module.require (/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js:64:27)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js:17:18)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at Module.load (node:internal/modules/cjs/loader:1208:32)","rejection":true,"date":"Thu Jun 27 2024 22:12:24 GMT+0700 (Indochina Time)","process":{"pid":70631,"uid":501,"gid":20,"cwd":"/Users/henry/Projects/personal/vms","execPath":"/Users/henry/.nvm/versions/node/v20.13.1/bin/node","version":"v20.13.1","argv":["/Users/henry/.nvm/versions/node/v20.13.1/bin/node","/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides"],"memoryUsage":{"rss":108298240,"heapTotal":57016320,"heapUsed":38033024,"external":4347298,"arrayBuffers":174226}},"os":{"loadavg":[36.18310546875,11.75732421875,6.158203125],"uptime":168145},"trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1145,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":986,"method":"_load","native":false},{"column":31,"file":"/Users/henry/Projects/personal/vms/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js","function":"Module._load","line":18,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1233,"method":"require","native":false},{"column":27,"file":"/Users/henry/Projects/personal/vms/node_modules/dd-trace/packages/dd-trace/src/ritm.js","function":"Module.require","line":64,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":18,"file":"/Users/henry/Projects/personal/vms/node_modules/@nestjs/passport/dist/auth.guard.js","function":null,"line":17,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1208,"method":"load","native":false}]}
+[31m[App] 70935  - [39m6/27/2024, 10:13:18 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:18 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:18 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:18 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:19 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:20 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:20 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:20 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:20 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:21 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:21 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:21 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:21 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:22 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:22 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:22 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:22 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:23 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:23 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:24 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:24 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:24 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:24 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:25 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:25 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:26 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:26 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:27 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:27 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:28 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:28 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:29 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:29 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:30 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:30 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:31 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:31 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:32 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:32 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:33 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:33 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:35 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:35 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:36 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:36 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:37 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:37 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:39 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:39 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:40 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:40 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:42 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:42 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:43 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:43 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:45 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:45 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:47 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:47 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:48 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:48 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:50 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:50 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:52 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:52 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:54 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 70935  - [39m6/27/2024, 10:13:54 PM [31m  ERROR[39m  [31m[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)[39m
+[31m[App] 79805  - [39m6/27/2024, 11:48:53 PM [31m  ERROR[39m  [31mError: Failed to map value: Cannot read properties of null (reading 'email')
+    at new ValueMappingFailedError (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:1187:15)
+    at UserDto.mapValue (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:1236:19)
+    at UserDto.mapMultipleValue (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:1225:21)
+    at UserDto.getDataFromSource (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:1214:20)
+    at UserDto.mapData (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:1201:36)
+    at new DTOMapper (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:1193:14)
+    at new UserDto (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:2246:1)
+    at UsersService.findByUsernameOrEmail (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:2097:16)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AuthService.login (/Users/henry/Projects/personal/vms/dist/apps/api/main.js:5768:22)[39m

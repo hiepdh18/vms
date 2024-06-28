@@ -11,14 +11,12 @@ export async function seed(knex: Knex): Promise<void> {
       username: 'admin',
       roleId: 1,
       password: '$2a$12$SfQPG3wWMz6TfBHh3T7Qgexuc10IttcK.RmSQ4Gl04y6zubPJN4GO',
-      firstLogin: true,
     }, // 123456
     {
       id: 2,
       username: 'user',
       roleId: 2,
       password: '$2b$10$iNT.d38.rdsRvRMU95WTSu0ZMUBi/Dbwsrzw7yu0vT60T9EPu8eNi',
-      firstLogin: true,
     }, //123456@
   ]);
 

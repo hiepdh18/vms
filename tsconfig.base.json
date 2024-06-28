@@ -20,6 +20,7 @@
       "@vms/api/users/entities": ["libs/api/users/src/entities.ts"],
       "@vms/api/ws/ptz": ["libs/api/ws/ptz/src/index.ts"],
       "@vms/api/auth": ["libs/api/auth/src/index.ts"],
+      "@vms/api/auth/guards": ["libs/api/auth/src/guards.ts"],
       "@vms/infra/logging": ["libs/infra/logging/src/index.ts"],
       "@vms/infra/nest-server": ["libs/infra/nest-server/src/index.ts"],
       "@vms/middlewares": ["libs/middlewares/src/index.ts"],
