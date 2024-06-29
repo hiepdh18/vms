@@ -30,6 +30,7 @@ module.exports = {
         }],
       optimization: false,
       outputHashing: 'none',
+      deleteOutputPath: false
     }),
   ],
 };

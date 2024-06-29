@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "noEmit": false,
+    "incremental": true,
+    "tsBuildInfoFile": "../..//tmp/buildcache/apps/api-op/database",
+    "resolveJsonModule": true,
+    "types": ["node"]
+  },
+  "include": ["knexfile.ts", "database/**/*.ts"]
+}

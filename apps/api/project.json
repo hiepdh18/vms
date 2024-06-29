@@ -23,6 +23,20 @@
     "build": {
       "options": {
         "generatePackageJson": true
+      },
+      "dependsOn": [
+        "build-database"
+      ]
+    },
+    "build-database": {
+      "executor": "@nx/js:tsc",
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/api",
+        "main": "apps/api/knexfile.ts",
+        "tsConfig": "apps/api/tsconfig.database.json",
+        "clean": true,
+        "assets": []
       }
     }
   }
