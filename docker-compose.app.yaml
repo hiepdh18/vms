@@ -9,23 +9,15 @@ services:
     restart: always
     env_file:
       - apps/api/.env.production
-    # environment:
-    #   - LOG_LEVEL=warn
-    #   - DB_TYPE=pg
-    #   - DB_HOST=192.168.6.95
-    #   - DB_PORT=5432
-    #   - DB_USER=dev
-    #   - DB_PASS=123456aA@
-    #   - DB_NAME=vms
-    #   - REDIS_HOST=192.168.6.95
-    #   - REDIS_PORT=6379
-    #   - REDIS_PASSWORD=123456aA@
-    #   - REDIS_DB=1
-    #   - JWT_SECRET=tVhEIVgzHYuJiUaxtIvt
-    #   - JWT_TIME=1h
-    #   - JWT_REFRESH_TIME=7d
-    # volumns:
-    #     - ./volumes/logs:/d
+    volumes:
+        - ./volumes/logs:/logs
     privileged: true # cấp quyền mount nfs
     ports:
       - 3333:3333
+    networks:
+      - bridge_net
+
+networks:
+  bridge_net:
+    external:
+      name: custom_net
