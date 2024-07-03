@@ -4,10 +4,12 @@ import dayjs from 'dayjs';
 import { UpdateUserDto } from './dtos/update-user.dto';
 import { UserDto } from './dtos/user.dto';
 import { UserEntity } from './entities/user.entity';
+import { USER_ERROR } from '@vms/shared/constants';
 
 @Injectable()
 export class UsersService {
   private readonly logger = new Logger(UsersService.name);
+
   async findPaging(query: PaginationQueryDto): Promise<TableData<UserEntity>> {
     return await UserEntity.query().getForTable(query);
   }
@@ -28,7 +30,10 @@ export class UsersService {
   async update(id: number, dto: UpdateUserDto): Promise<UserDto> {
     const user = await this.findById(id);
     if (!user) {
-      throw new BadRequestException({ code: 201, message: 'User not found.' });
+      throw new BadRequestException({
+        code: 11001,
+        message: USER_ERROR[11001],
+      });
     }
     const { email } = dto;
     if (email) {
@@ -38,8 +43,8 @@ export class UsersService {
         .first();
       if (checkEmail) {
         throw new BadRequestException({
-          code: 200,
-          message: 'User already exist.',
+          code: 11002,
+          message: USER_ERROR[11002],
         });
       }
     }

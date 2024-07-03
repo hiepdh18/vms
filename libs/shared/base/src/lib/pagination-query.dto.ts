@@ -31,7 +31,20 @@ class Sorter {
 }
 
 export class PaginationQueryDto {
-  @ApiProperty({ required: false, type: 'object', isArray: true })
+  @ApiProperty({
+    required: false,
+    type: 'object',
+    example: {
+      filters: {
+        username: {
+          field: '',
+          value: 'admin',
+          operation: 'equals',
+          matchCase: false,
+        },
+      },
+    },
+  })
   @IsOptional()
   filters: { [x: string]: Filter };
 
@@ -52,7 +65,7 @@ export class PaginationQueryDto {
   @IsOptional()
   page: number;
 
-  @ApiProperty({ required: false })
+  @ApiProperty({ required: false, default: 10 })
   @IsOptional()
   pageSize: number;
 }

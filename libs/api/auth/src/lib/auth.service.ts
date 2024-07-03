@@ -8,6 +8,7 @@ import {
 import { ConfigService } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
 import { UserEntity } from '@vms/api/users/entities';
+import { AUTH_ERROR } from '@vms/shared/constants';
 import { JwtPayload } from '@vms/shared/interfaces';
 import { compare, hash } from 'bcryptjs';
 import dayjs from 'dayjs';
@@ -70,7 +71,10 @@ export class AuthService {
       });
       return token;
     } catch (error) {
-      throw new UnauthorizedException();
+      throw new UnauthorizedException({
+        code: 10003,
+        massage: AUTH_ERROR[10003],
+      });
     }
   }
 
@@ -109,8 +113,8 @@ export class AuthService {
       const requirePermission = this.crudToDec(permissions[permission]);
       if (!this.hasPermission(requirePermission, userPermission)) {
         throw new ForbiddenException({
-          code: 10005,
-          massage: "You don't have permission",
+          code: 10003,
+          massage: AUTH_ERROR[10003],
         });
       }
     }
@@ -125,19 +129,19 @@ export class AuthService {
       .first();
     if (!user)
       throw new BadRequestException({
-        code: 3,
-        message: 'Wrong username or password',
+        code: 10001,
+        message: AUTH_ERROR[10001],
       });
     if (user.isLocked)
       throw new BadRequestException({
-        code: 2,
-        message: 'User has been locked.',
+        code: 10002,
+        message: AUTH_ERROR[10002],
       });
     const checkPassword = await this.verifyHash(password, user.password);
     if (!checkPassword)
       throw new BadRequestException({
-        code: 3,
-        message: 'Wrong username or password',
+        code: 10001,
+        message: AUTH_ERROR[10001],
       });
     const tokens = await this.getTokens(user);
     await AuthTokenEntity.query().insert({
@@ -164,7 +168,10 @@ export class AuthService {
       .where('user.isLocked', false)
       .first();
     if (!authToken) {
-      throw new UnauthorizedException();
+      throw new UnauthorizedException({
+        code: 10003,
+        massage: AUTH_ERROR[10003],
+      });
     }
     this.logger.log(authToken.token);
     await authToken.$query().delete();
