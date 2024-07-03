@@ -21,14 +21,14 @@ export class UserEntity extends BaseEntity implements IUser {
   isLocked!: boolean;
   role: RoleEntity;
 
-  // $formatJson(json) {
-  //   // Remember to call the super class's implementation.
-  //   json = super.$formatJson(json);
-  //   // Do your conversion here.
-  //   delete json.password;
-  //   delete json.refreshToken;
-  //   return json;
-  // }
+  override $formatJson(json: any) {
+    // Remember to call the super class's implementation.
+    json = super.$formatJson(json);
+    // Do your conversion here.
+    delete json.password;
+    delete json.refreshToken;
+    return json;
+  }
 
   static override get jsonSchema(): JSONSchema {
     return {
