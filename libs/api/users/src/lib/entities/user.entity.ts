@@ -1,8 +1,6 @@
 import { BaseEntity } from '@vms/shared/base';
-import { Roles } from '@vms/shared/constants';
 import { IUser } from '@vms/shared/interfaces';
 import { JSONSchema } from 'objection';
-import dayjs = require('dayjs');
 import { RoleEntity } from './role.entity';
 
 export class UserEntity extends BaseEntity implements IUser {
@@ -20,6 +18,8 @@ export class UserEntity extends BaseEntity implements IUser {
   lastLogin!: string;
   createdAt!: string;
   updatedAt!: string;
+  isLocked!: boolean;
+  role: RoleEntity;
 
   // $formatJson(json) {
   //   // Remember to call the super class's implementation.
@@ -52,10 +52,6 @@ export class UserEntity extends BaseEntity implements IUser {
     };
   }
 
-  async getPermissions(): Promise<any> {
-    return;
-  }
-
   static override get relationMappings() {
     // const { RoleEntity } = require('@vms/api/users');
     return {
@@ -72,20 +68,5 @@ export class UserEntity extends BaseEntity implements IUser {
 
   static override get virtualAttributes() {
     return ['isLocked'];
-  }
-
-  isLocked() {
-    const isRoleAdmin = this.roleId === Roles.ADMIN;
-    if (isRoleAdmin) {
-      return false;
-    }
-
-    let lastLogin: Date | string | null = this.lastLogin;
-    if (!this.lastLogin) {
-      lastLogin = this.createdAt;
-    }
-
-    const days = dayjs().diff(lastLogin, 'days');
-    return days > 30 ? true : false;
   }
 }

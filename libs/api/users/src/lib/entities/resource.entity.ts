@@ -6,6 +6,7 @@ export class ResourceEntity extends BaseEntity implements IResource {
   id!: number;
   key!: string;
   desc!: string;
+  value?: number;
   groupKey!: number;
   createdAt!: Date;
   updatedAt!: Date;

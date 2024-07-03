@@ -20,6 +20,9 @@ export class UserDto extends DTOMapper {
   settings: any;
 
   @MapFrom()
+  refreshToken!: string;
+
+  @MapFrom()
   password!: string;
 
   @MapFrom()

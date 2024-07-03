@@ -7,10 +7,12 @@ import {
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
-import { UsersService } from '@vms/api/users';
-import { isEmpty } from '@vms/shared/utils';
+import { UserEntity } from '@vms/api/users/entities';
+import { JwtPayload } from '@vms/shared/interfaces';
 import { compare, hash } from 'bcryptjs';
+import dayjs from 'dayjs';
 import { LoginDto } from './dtos/login.dto';
+import { TokenDto } from './dtos/token.dto';
 import { AuthTokenEntity } from './entities/authToken.entity';
 
 interface CharToNum {
@@ -23,10 +25,10 @@ interface CharToNum {
 @Injectable()
 export class AuthService {
   private readonly logger = new Logger(AuthService.name);
+
   constructor(
     private jwtService: JwtService,
-    private configService: ConfigService,
-    private readonly userServices: UsersService
+    private configService: ConfigService
   ) {}
 
   async createHash(str: string) {
@@ -46,9 +48,11 @@ export class AuthService {
     };
     const [accessToken, refreshToken] = await Promise.all([
       this.jwtService.signAsync(_payload, {
+        secret: this.configService.get<string>('JWT_SECRET'),
         expiresIn: this.configService.get<string>('JWT_TIME') || '1h',
       }),
       this.jwtService.signAsync(_payload, {
+        secret: this.configService.get<string>('JWT_REFRESH_SECRET'),
         expiresIn: this.configService.get<string>('JWT_REFRESH_TIME') || '7d',
       }),
     ]);
@@ -61,7 +65,9 @@ export class AuthService {
 
   async verifyToken(tokenBearerAuth: string) {
     try {
-      const token = await this.jwtService.verifyAsync(tokenBearerAuth);
+      const token = await this.jwtService.verifyAsync(tokenBearerAuth, {
+        secret: this.configService.get<string>('JWT_SECRET'),
+      });
       return token;
     } catch (error) {
       throw new UnauthorizedException();
@@ -69,6 +75,7 @@ export class AuthService {
   }
 
   charToNum = { O: 16, C: 8, R: 4, U: 2, D: 1 };
+
   crudToDec = (text: string): number =>
     text
       .toUpperCase()
@@ -93,29 +100,34 @@ export class AuthService {
 
   checkPermission(
     permissions: any,
-    userPermissions: any,
-    showError = false
-  ): any {
+    userPermissions: any
+    // showError = false
+  ): boolean {
     if (!permissions) return true;
     for (const permission in permissions) {
       const userPermission = userPermissions[permission];
       const requirePermission = this.crudToDec(permissions[permission]);
       if (!this.hasPermission(requirePermission, userPermission)) {
-        throw new ForbiddenException({ statusCode: 10005 });
+        throw new ForbiddenException({
+          code: 10005,
+          massage: "You don't have permission",
+        });
       }
-      return true;
     }
+    return true;
   }
 
   async login(dto: LoginDto) {
     const { username, password } = dto;
-    const user = await this.userServices.findByUsernameOrEmail(username);
-    if (isEmpty(user))
+    const user = await UserEntity.query()
+      .where({ username })
+      .orWhere({ email: username })
+      .first();
+    if (!user)
       throw new BadRequestException({
         code: 3,
         message: 'Wrong username or password',
       });
-    this.logger.log(`username: ${user.username}`);
     if (user.isLocked)
       throw new BadRequestException({
         code: 2,
@@ -135,7 +147,13 @@ export class AuthService {
     const refreshTokenHashed = await this.createHash(tokens.refreshToken);
 
     this.logger.log(`hashed token: ${refreshTokenHashed}`);
-    await this.userServices.afterLogin(user.id, refreshTokenHashed);
+    const now = dayjs().toISOString();
+    await UserEntity.query().where('id', user.id).update({
+      refreshToken: refreshTokenHashed,
+      lastLogin: now,
+      updatedAt: now,
+    });
+
     return tokens;
   }
 
@@ -148,8 +166,33 @@ export class AuthService {
     if (!authToken) {
       throw new UnauthorizedException();
     }
-    this.logger.log(authToken.token)
+    this.logger.log(authToken.token);
     await authToken.$query().delete();
     return true;
+  }
+
+  async refreshTokens(payload: any, refreshToken: string): Promise<TokenDto> {
+    const user = await UserEntity.query().findById(payload.id);
+    if (!user || !user.refreshToken)
+      throw new ForbiddenException('Access Denied');
+    this.logger.log(refreshToken);
+    const check = await this.verifyHash(refreshToken, user.refreshToken);
+    this.logger.log(check);
+    if (!check) throw new ForbiddenException('Access Denied');
+
+    const tokens = await this.getTokens(user);
+    const hashToken = await this.createHash(tokens.refreshToken);
+    await user
+      .$query()
+      .patch({ updatedAt: dayjs().toISOString(), refreshToken: hashToken });
+    return new TokenDto(tokens);
+  }
+
+  async validateUser(payload: JwtPayload): Promise<any> {
+    const user = await UserEntity.query().findOne({
+      username: payload.username,
+    });
+    if (!user) return null;
+    return user;
   }
 }

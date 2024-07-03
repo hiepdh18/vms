@@ -1,5 +1,6 @@
 import { BaseEntity } from '@vms/shared/base';
 import { IRole } from '@vms/shared/interfaces';
+import { PermissionEntity } from './permission.entity';
 import { ResourceEntity } from './resource.entity';
 
 export class RoleEntity extends BaseEntity implements IRole {
@@ -9,6 +10,7 @@ export class RoleEntity extends BaseEntity implements IRole {
   name!: string;
   key!: string;
   desc!: string;
+  resources!: [ResourceEntity];
   createdAt!: Date;
   updatedAt!: Date;
 
@@ -25,6 +27,14 @@ export class RoleEntity extends BaseEntity implements IRole {
             extra: ['value'],
           },
           to: 'resources.id',
+        },
+      },
+      permissions: {
+        relation: this.HasManyRelation,
+        modelClass: PermissionEntity,
+        join: {
+          from: 'roles.id',
+          to: 'permissions.roleId',
         },
       },
       // users: {
