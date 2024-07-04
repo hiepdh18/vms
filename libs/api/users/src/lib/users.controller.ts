@@ -1,9 +1,4 @@
 import { Controller, Get, Logger, Query, UseGuards } from '@nestjs/common';
-import { Permissions } from '@vms/api/auth';
-import { AuthenticationGuard, PermissionsGuard } from '@vms/api/auth/guards';
-import { PaginationQueryDto, TableData } from '@vms/shared/base';
-import { UserEntity } from './entities/user.entity';
-import { UsersService } from './users.service';
 import { EventEmitter2, OnEvent } from '@nestjs/event-emitter';
 import {
   ApiBearerAuth,
@@ -11,8 +6,11 @@ import {
   ApiOperation,
   ApiTags,
 } from '@nestjs/swagger';
-import { PagingDto } from './dtos/paging.dto';
+import { Permissions } from '@vms/api/auth';
+import { AuthenticationGuard, PermissionsGuard } from '@vms/api/auth/guards';
+import { PaginationQueryDto, PagingDto } from '@vms/shared/base';
 import { EUserEvent } from '@vms/shared/enums';
+import { UsersService } from './users.service';
 
 @ApiTags('users')
 @ApiBearerAuth('access-token')
