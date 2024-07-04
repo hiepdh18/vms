@@ -4,6 +4,7 @@ import { AuthenticationGuard, PermissionsGuard } from '@vms/api/auth/guards';
 import { PaginationQueryDto, TableData } from '@vms/shared/base';
 import { UserEntity } from './entities/user.entity';
 import { UsersService } from './users.service';
+import { EventEmitter2, OnEvent } from '@nestjs/event-emitter';
 import {
   ApiBearerAuth,
   ApiOkResponse,
@@ -11,20 +12,18 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { PagingDto } from './dtos/paging.dto';
+import { EUserEvent } from '@vms/shared/enums';
 
-class X implements TableData<UserEntity> {
-  data: UserEntity[];
-  total: number;
-  page: number;
-  pageSize: number;
-}
 @ApiTags('users')
 @ApiBearerAuth('access-token')
 @Controller('users')
 @UseGuards(PermissionsGuard)
 export class UsersController {
   private readonly logger = new Logger(UsersController.name);
-  constructor(private services: UsersService) {}
+  constructor(
+    private services: UsersService,
+    private eventEmitter: EventEmitter2
+  ) {}
 
   @ApiOperation({ summary: 'Get users pagination' })
   @Get()
@@ -35,10 +34,18 @@ export class UsersController {
     return await this.services.findPaging(query);
   }
 
-  @Permissions({ manage_cameras: 'R' })
+  @Permissions({ manage_camera: 'R' })
   @Get('test')
   test() {
     this.logger.log('TEST');
+    this.eventEmitter.emit(EUserEvent.USER_LOGIN, {
+      userId: 1,
+    });
     return 1;
+  }
+
+  @OnEvent(EUserEvent.USER_LOGIN)
+  loginEventHandler(payload: any) {
+    console.log('🚀 [CHECKING] payload =>', { payload });
   }
 }

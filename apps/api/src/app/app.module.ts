@@ -9,6 +9,7 @@ import { OnvifModule } from '@vms/onvif';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { HttpExceptionFilter } from './exception.filter';
+import { EventEmitterModule } from '@nestjs/event-emitter';
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { HttpExceptionFilter } from './exception.filter';
       type: 'single',
     }),
     OnvifModule,
+    EventEmitterModule.forRoot(),
     PtzModule,
     AuthModule,
     UsersModule,
