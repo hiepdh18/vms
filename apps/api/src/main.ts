@@ -1,9 +1,10 @@
+import * as dotenv from 'dotenv'
+dotenv.config({path:'./.env'})
 import { LoggingInterceptor } from '@vms/middlewares'
 /**
  * This is not a production server yet!
  * This is only a minimal backend to get started.
  */
-
 import { DocumentBuilder } from '@nestjs/swagger';
 import { SecuritySchemeObject } from '@nestjs/swagger/dist/interfaces/open-api-spec.interface';
 import { bootstrap } from '@vms/infra/nest-server';

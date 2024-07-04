@@ -8,8 +8,8 @@
   "scripts": {
     "dev:api": "nx run api:serve",
     "dev:web": "nx run web:dev",
-    "build:api": "nx run api:build --skip-nx-cache",
-    "build:web": "nx run web:build --skip-nx-cache"
+    "build:api": "nx run api:build --skip-nx-cache --no-cache",
+    "build:web": "nx run web:build --skip-nx-cache --no-cache"
   },
   "private": true,
   "dependencies": {
