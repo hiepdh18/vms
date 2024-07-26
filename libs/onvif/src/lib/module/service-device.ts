@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 import { requestCommand, Result } from './soap';
 import { OnvifServiceBase, OnvifServiceBaseConfigs } from './service-base';
 
@@ -211,7 +212,7 @@ export class OnvifServiceDevice extends OnvifServiceBase {
       requestCommand(this.oxaddr, 'GetSystemDateAndTime', soap)
         .then((result) => {
           const parsed = parseGetSystemDateAndTime(result.converted);
-          this.fixTimeDiff(parsed?.date);
+          this.fixTimeDiff(parsed?.date as Date);
           return resolve(result);
         })
         .catch((error) => {
@@ -219,7 +220,7 @@ export class OnvifServiceDevice extends OnvifServiceBase {
           requestCommand(this.oxaddr, 'GetSystemDateAndTime', newSoap)
             .then((result) => {
               const parsed = parseGetSystemDateAndTime(result.converted);
-              this.fixTimeDiff(parsed?.date);
+              this.fixTimeDiff(parsed?.date as Date);
               return resolve(result);
             })
             .catch((err) => reject(err));
@@ -228,7 +229,7 @@ export class OnvifServiceDevice extends OnvifServiceBase {
   }
 
   setSystemDateAndTime(params: SetSystemDateAndTimeParams): Promise<Result> {
-    if (!params.TimeZone.match(/^[A-Z]{3}\-?\d{1,2}([A-Z]{3,4})?$/)) {
+    if (!params.TimeZone?.match(/^[A-Z]{3}\-?\d{1,2}([A-Z]{3,4})?$/)) {
       return Promise.reject(
         new Error(
           'The "TimeZone" property must be a string representing a time zone which is defined in POSIX 1003.1.'

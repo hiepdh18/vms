@@ -5,6 +5,7 @@ dist
 tmp
 /out-tsc
 .env
+public
 # dependencies
 node_modules
 volumes

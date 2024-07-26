@@ -7,7 +7,7 @@ import { ProbeDeviceOkDto } from './dto/probe.dto';
 @ApiTags('onvif')
 @Controller('onvif')
 export class OnvifController {
-  constructor(private onvifService: OnvifService) { }
+  constructor(private onvifService: OnvifService) {}
 
   @ApiOperation({ summary: 'Search for ONVIF devices' })
   @ApiOkResponse({ type: [ProbeDeviceOkDto] })
@@ -21,5 +21,12 @@ export class OnvifController {
   @Post('connect')
   async connect(@Body() connectDeviceDto: ConnectDeviceDto) {
     return this.onvifService.connect(connectDeviceDto);
+  }
+
+  @ApiOperation({ summary: 'test to ONVIF device' })
+  @ApiOkResponse({ type: ConnectDeviceOkDto })
+  @Post('snapshot')
+  async test(@Body() connectDeviceDto: ConnectDeviceDto) {
+    return this.onvifService.snapshot(connectDeviceDto);
   }
 }

@@ -1,4 +1,4 @@
-import { createSocket, Socket } from 'dgram';
+import { BindOptions, createSocket, Socket } from 'dgram';
 import { randomBytes } from 'crypto';
 import { parse } from './module/soap';
 
@@ -118,7 +118,11 @@ export function startProbe(): Promise<Probe[]> {
         });
     });
 
-    udp.bind(() => {
+    const bindObj: BindOptions = {};
+    if (process.env['EXTERNAL_IP'])
+      bindObj.address = process.env['EXTERNAL_IP'];
+
+    udp.bind(bindObj, () => {
       udp?.removeAllListeners('error');
       sendProbe().catch((e) => {
         reject(e);

@@ -8,8 +8,8 @@
   "scripts": {
     "dev:api": "nx run api:serve",
     "dev:web": "nx run web:dev",
-    "build:api": "nx run api:build --skip-nx-cache --no-cache",
-    "build:web": "nx run web:build --skip-nx-cache --no-cache"
+    "build:api": "nx run api:build --skip-nx-cache --no-cache --configuration=production",
+    "build:web": "nx run web:build --skip-nx-cache --no-cache --configuration=production"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +35,8 @@
     "html": "^1.0.0",
     "ioredis": "^5.4.1",
     "knex": "^3.1.0",
+    "lodash": "^4.17.21",
+    "nanoid": "^5.0.7",
     "nest-winston": "^1.10.0",
     "next": "14.2.3",
     "objection": "^3.1.4",
@@ -51,6 +53,7 @@
     "socket.io": "^4.7.5",
     "sqlite3": "^5.1.7",
     "tslib": "^2.3.0",
+    "uuid": "^10.0.0",
     "winston": "^3.13.0",
     "winston-daily-rotate-file": "^5.0.0",
     "xml2js": "^0.6.2"
@@ -80,11 +83,13 @@
     "@types/html": "^1.0.4",
     "@types/jest": "^29.4.0",
     "@types/js-yaml": "^4.0.9",
+    "@types/lodash": "^4.17.7",
     "@types/node": "~18.16.9",
     "@types/passport-jwt": "^4.0.1",
     "@types/passport-local": "^1.0.38",
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.0",
+    "@types/uuid": "^10.0.0",
     "@types/xml2js": "^0.4.14",
     "@typescript-eslint/eslint-plugin": "^7.3.0",
     "@typescript-eslint/parser": "^7.3.0",

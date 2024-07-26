@@ -10,6 +10,7 @@ import { OnvifServiceDevice } from './service-device';
 import { OnvifHttpAuth } from './http-auth';
 import { IncomingHttpHeaders } from 'http';
 import { Result } from './soap';
+import * as url from 'url';
 
 export interface Information {
   Manufacturer: string;
@@ -140,6 +141,52 @@ export class OnvifDevice extends EventEmitter {
 
     return new Promise((resolve, reject) => {
       const ourl = new URL(this.currentProfile.snapshot);
+      const options = {
+        protocol: ourl.protocol,
+        auth: this.user + ':' + this.pass,
+        hostname: ourl.hostname,
+        port: ourl.port || 80,
+        path: ourl.pathname + ourl.search,
+        method: 'GET',
+      };
+      const req = new OnvifHttpAuth().request(options, (res) => {
+        const bufferList: Uint8Array[] = [];
+        res.on('data', (buf: Uint8Array) => {
+          bufferList.push(buf);
+        });
+        res.on('end', () => {
+          if (res.statusCode === 200) {
+            const buffer = Buffer.concat(bufferList);
+            let ct = res.headers['content-type'];
+            if (!ct) {
+              ct = 'image/jpeg';
+            }
+            if (ct.match(/image\//)) {
+              resolve({ headers: res.headers, body: buffer });
+            } else if (ct.match(/^text\//)) {
+              reject(new Error(buffer.toString()));
+            } else {
+              reject(new Error('Unexpected data:' + ct));
+            }
+          }
+        });
+        req.on('error', (error) => {
+          reject(error);
+        });
+      });
+      req.on('error', (error) => {
+        reject(error);
+      });
+      req.end();
+    });
+  }
+
+  fetchSnapshotByUrl(snapshotUrl: string): Promise<Snapshot> {
+    if (!snapshotUrl) {
+      return Promise.reject(new Error('No snapshotUrl is provided'));
+    }
+    return new Promise((resolve, reject) => {
+      const ourl: any = url.parse(snapshotUrl);
       const options = {
         protocol: ourl.protocol,
         auth: this.user + ':' + this.pass,
